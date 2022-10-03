@@ -16,10 +16,18 @@ h1{
 .overflow-none{
   overflow: hidden;
 }
+.scroll{
+  overflow: auto;
+  scroll-behavior: smooth;
+  height: 100vh;
+}
 
-// HEADER
 
-.header-text{
+
+
+// HEADER***********************************
+
+.header-text1{
   font-family: 'Montserrat', sans-serif;
   color: #08203D;
   font-size: 13pt;
@@ -27,15 +35,76 @@ h1{
   margin: 0px;
   padding: 20px 16px 35px 16px;
 }
-.header-text:hover{
+.header-text2{
+  font-family: 'Montserrat', sans-serif;
+  color: #08203D;
+  font-size: 13pt;
+  font-weight: 400;
+  margin: 0px;
+  padding: 20px 16px 35px 16px;
+}
+.header-text3{
+  font-family: 'Montserrat', sans-serif;
+  color: #08203D;
+  font-size: 13pt;
+  font-weight: 400;
+  margin: 0px;
+  padding: 20px 16px 35px 16px;
+}
+.header-text4{
+  font-family: 'Montserrat', sans-serif;
+  color: #08203D;
+  font-size: 13pt;
+  font-weight: 400;
+  margin: 0px;
+  padding: 20px 16px 35px 16px;
+}
+.header-text1:hover{
   color: #FFFBF1;
-  background-image: url(./images/brush2.png);
+  background-image: url(./images/home_brush.png);
   background-size: cover;
 }
-.brush2{
-  height: 90px;
+.header-text2:hover{
+  color: #FFFBF1;
+  background-image: url(./images/gallerie_brush.png);
+  background-size: cover;
 }
-.brush2-hidden{
-  position: absolute;
-  top: -2px;
+.header-text3:hover{
+  color: #FFFBF1;
+  background-image: url(./images/histoire_brush.png);
+  background-size: cover;
+}
+.header-text4:hover{
+  color: #FFFBF1;
+  background-image: url(./images/poesie_brush.png);
+  background-size: cover;
+}
+
+
+
+// GALLERIE ***********************************
+
+.gallerie-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+.brush2{
+  margin-top: 10px;
+  width: 100%;
+}
+.painting{
+  width: 100%;
+  padding: 10px 5px 10px 5px;
+}
+.paintings_container{
+  line-height: 0;
+  -webkit-column-count: 5;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    5;
+  -moz-column-gap:      0px;
+  column-count:         5;
+  column-gap:           0px;
 }

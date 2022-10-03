@@ -1,17 +1,17 @@
 .name-title{
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
 }
 .brush1{
   margin-right: -11px;
   height: 85%;
+  transform: rotate(179deg);
 }
 .subtitle-container{
   display: flex;
   position: absolute;
-  right: 18px;
-  top: 32px;
+  margin-left: 34px;
+  top: 37px;
 }
 .subtitle{
   font-family: 'Montserrat', sans-serif;
@@ -41,6 +41,11 @@
 }
 .paintings{
   height: 516px;
+  transition: ease-in 0.3s;
+}
+.paintings:hover{
+  height: 548px;
+  transform: rotate(8deg);
 }
 .marker-container{
   position: absolute;
@@ -48,6 +53,11 @@
 }
 .marker{
   height: 257px;
+  transition: ease-in 0.3s;
+}
+.marker:hover{
+  height: 287px;
+  transform: rotate(8deg);
 }
 .dd-container{
   position: absolute;
@@ -56,4 +66,13 @@
 }
 .dd{
   height: 238px;
+  -webkit-box-shadow: -2px 5px 14px -6px #52432D; 
+  box-shadow: -2px 5px 14px -6px #52432D;
+  border: 3px solid #ede9de;
+  transform: rotate(4deg);
+  transition: ease-in 0.3s;
+}
+.dd:hover{
+  height: 258px;
+  transform: rotate(8deg);
 }

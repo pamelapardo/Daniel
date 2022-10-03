@@ -1,5 +1,4 @@
 import React from 'react';
-import Brush2 from '../images/brush2.png'
 
 export default function Header () {
   return (
@@ -12,20 +11,16 @@ export default function Header () {
           <div className='d-flex'>
             
             <div>
-              <h6 className='header-text'>Home</h6>
-              {/* <div className='brush2-hidden'>
-                <img className='brush2' src={Brush2} alt='brush'/>
-              </div> */}
-            </div>
-
-            <div>
-              <h6 className='header-text'>Gallerie</h6>
+              <h6 className='header-text1'>Home</h6>
             </div>
             <div>
-              <h6 className='header-text'>Mon histoire</h6>
+              <h6 className='header-text2'>Gallerie</h6>
             </div>
             <div>
-              <h6 className='header-text'>Poesie</h6>
+              <h6 className='header-text3'>Mon histoire</h6>
+            </div>
+            <div>
+              <h6 className='header-text4'>Poesie</h6>
             </div>
           </div>
         </div>

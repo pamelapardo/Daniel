@@ -6,6 +6,7 @@ import Paintings from '../images/paintings.png'
 import Marker from '../images/marker.png'
 import Dd from '../images/DD.png'
 import Page from '../images/page.png'
+import { Link } from 'react-router-dom';
 
 export default function Landing(props) {
   return (
@@ -17,13 +18,15 @@ export default function Landing(props) {
           <img className='circle1' src={Circle1} alt='circle'/>
         </div>
 
-        <div className='page-container'>
+        {/* <div className='page-container'>
           <img className='page' src={Page} alt='page'/>
-        </div>
+        </div> */}
 
         <div class="col-6 overflow-none position-relative">
           <div className='paintings-container'>
+            <Link to='/gallerie'>
             <img className='paintings' src={Paintings} alt='paintings'/>
+            </Link>
           </div>
 
           <div className='marker-container'>
