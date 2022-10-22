@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Montserrat:ital,wght@0,400;0,500;1,300&display=swap');
 a{
-  text-decoration: none;
+  text-decoration: none !important;
 }
 .global-background{
   background-image: url(./images/background.jpg);
@@ -96,15 +96,17 @@ h1{
   width: 100%;
 }
 .painting{
+  max-width: 320px;
   width: 100%;
   padding: 10px 5px 10px 5px;
 }
 .paintings_container{
   line-height: 0;
-  -webkit-column-count: 5;
+  -webkit-column-count: 3;
   -webkit-column-gap:   0px;
-  -moz-column-count:    5;
+  -moz-column-count:    3;
   -moz-column-gap:      0px;
-  column-count:         5;
+  column-count:         3;
   column-gap:           0px;
+  width: 100%;
 }
