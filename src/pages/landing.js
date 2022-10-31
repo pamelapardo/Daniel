@@ -34,7 +34,9 @@ export default function Landing(props) {
           </div>
 
           <div className='dd-container'>
+            <Link to='/monHistoire'>
             <img className='dd' src={Dd} alt='Daniel-Deschamps'/>
+            </Link>
           </div>
         </div>
 

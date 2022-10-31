@@ -5,6 +5,7 @@ a{
 .global-background{
   background-image: url(./images/background.jpg);
   background-size: cover;
+  background-attachment: scroll;
   height: 100vh;
 }
 h1{
@@ -20,6 +21,10 @@ h1{
   overflow: auto;
   scroll-behavior: smooth;
   height: 100vh;
+}
+.p-text{
+  color: #08203D;
+  font-size: 22px;
 }
 
 
@@ -109,4 +114,11 @@ h1{
   column-count:         3;
   column-gap:           0px;
   width: 100%;
+}
+
+
+
+// MON HISTOIRE ****************************************
+.dd-image{
+  height: 75%;
 }
