@@ -10,13 +10,13 @@ export default function Header () {
           <Link to='/'><h6 className='header-text1'>Home</h6></Link>
         </div>
         <div>
-          <Link to='/gallerie'><h6 className='header-text2'>Gallerie</h6></Link>
+          <Link to='/galerie'><h6 className='header-text2'>Galerie</h6></Link>
         </div>
         <div>
           <Link to='/monHistoire'><h6 className='header-text3'>Mon histoire</h6></Link>
         </div>
         <div>
-          <h6 className='header-text4'>Poesie</h6>
+          <Link to='/poesie'> <h6 className='header-text4'>Poesie</h6> </Link>
         </div>
       </div>
     </div>

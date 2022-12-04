@@ -14,8 +14,16 @@ h1{
   font-size: 55pt !important;
   margin-bottom: -1.5rem !important;
 }
+h3{
+  font-family: 'Cinzel', serif;
+  color: #08203D;
+  font-size: 30pt !important;
+}
 .overflow-none{
   overflow: hidden;
+}
+.overflow-visible{
+  overflow: visible;
 }
 .scroll{
   overflow: auto;
@@ -26,8 +34,24 @@ h1{
   color: #08203D;
   font-size: 22px;
 }
+button{
+  background-color: transparent;
+  border: none;
+}
+.bleu-body{
+  background-color: #08203D;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+.text-white{
+  color: #FFFBF1 !important;
+}
 
 
+// LANDING ***********
+.color-red{
+  color: #a4181f !important;
+}
 
 
 // HEADER***********************************
@@ -84,12 +108,15 @@ h1{
   background-image: url(./images/poesie_brush.png);
   background-size: cover;
 }
+.painting-size{
+  display: contents;
+}
 
 
 
-// GALLERIE ***********************************
+// GALERIE ***********************************
 
-.gallerie-body{
+.galerie-body{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -108,12 +135,11 @@ h1{
 .paintings_container{
   line-height: 0;
   -webkit-column-count: 3;
-  -webkit-column-gap:   0px;
   -moz-column-count:    3;
-  -moz-column-gap:      0px;
   column-count:         3;
-  column-gap:           0px;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -121,4 +147,48 @@ h1{
 // MON HISTOIRE ****************************************
 .dd-image{
   height: 75%;
+}
+
+
+// POESIE ************
+.text-align-end{
+  text-align: end;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.dd2{
+  height: 390px;
+}
+
+.citation{
+  border-left: 2px solid #FFFBF1;
+  padding-left: 15px;
+}
+
+.date-container{
+  display: flex;
+  position: absolute;
+  margin-left: 63px;
+  top: 54px;
+}
+
+.date{
+  font-family: "Montserrat", sans-serif;
+  color: #FFFBF1;
+  font-weight: 500;
+  font-size: 20pt;
+}
+.date-bleu{
+  font-family: "Montserrat", sans-serif;
+  color: #08203D;
+  font-weight: 500;
+  font-size: 20pt;
+  margin-right: 93px;
+}
+.dd5{
+  right: 0px;
+  height: 596px;
 }
