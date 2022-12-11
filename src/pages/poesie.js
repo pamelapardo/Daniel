@@ -3,9 +3,10 @@ import Header from '../components/header';
 import BrushPoesie from '../images/brush-poesie.png';
 import Brush4 from '../images/brush4.png';
 import BrushWhite from '../images/brush-white.png'
-import Dd2 from '../images/dd2.png';
-import Dd3 from '../images/dd3.png';
-import Dd5 from '../images/daniel5.png'
+import News from '../images/news2.png';
+import Dd4 from '../images/dd4.png';
+import Dd5 from '../images/daniel5.png';
+import Poesies from '../images/poeme-1.png'
 
 export default function Galerie (props) {
   return (
@@ -51,7 +52,7 @@ export default function Galerie (props) {
                 </div>
               </div>
             </div>
-            <div className='col-4 overflow-visible'>
+            <div className='col-4 d-flex align-items-center overflow-visible'>
               <img className='dd5' src={Dd5} alt='daniel'/>
             </div>
           </div>
@@ -100,7 +101,7 @@ export default function Galerie (props) {
             toi, tu te révèlerais à toi, à moi, à la vie ! …<br/></p>
             </div>
             <div className='d-flex position-relative justify-content-end'>
-              <img className='brush' src={BrushWhite} alt='brush'/>
+              <img className='brush brush-white-size' src={BrushWhite} alt='brush'/>
               <div className='date-container me-5'>
                 <p className='date-bleu'>1986</p>
               </div>
@@ -148,8 +149,13 @@ export default function Galerie (props) {
       </div>
       <div className='bleu-body pb-5'>
         <div className='container mt-5 pt-5'>
-          <div className='pt-5 pb-5'>
-            <div className='text-align-end'>
+          <div className='row pt-5 pb-5'>
+            <div className='col-6 d-flex align-items-center'>
+              <div>
+                <img className='news-heigh' src={Poesies} alt='daniel'/>
+              </div>
+            </div>
+            <div className='col-6 text-align-end'>
               <h3 className='text-white'>Celle qui passait</h3>
               <p className='p-text text-white'>Les cloches sonnaient huit heures, je marchais<br/>
               dans les rues, je marchais dans ma tête, une<br/>
@@ -160,8 +166,8 @@ export default function Galerie (props) {
               Moi, j'allais je nesais où (tiens moi !)<br/>
               Je déambulais, les pensées à des kilomètres de là.<br/>
               J'étais dans les Alpes et je pensais aux Pyrénées ;<br/>
-              Je constatais que j’aimais à penser à quelqu'un,<br/>
-              que j’appréciais de me projeter dans le futur , que <br/>
+              Je constatais que j'aimais à penser à quelqu'un,<br/>
+              que j'appréciais de me projeter dans le futur , que <br/>
               que je ne dédaignais pas faire des projets.<br/>
               Penser à une création, à un engagement, à un chemi-<br/>
               nement des évènements : c'est étre créateur et<br/>
@@ -170,11 +176,11 @@ export default function Galerie (props) {
               Je déambulais la paix dans la tête, la tête sous<br/>
               les étoiles d'automne (Peut-être un printemps de<br/>
               vie ! … )<br/></p>
-            </div>
-            <div className='d-flex position-relative justify-content-end'>
-              <img className='brush' src={BrushWhite} alt='brush'/>
-              <div className='date-container'>
-                <p className='date-bleu'>Grenoble - 11/10/1988</p>
+              <div className='d-flex position-relative justify-content-end'>
+                <img className='brush' src={BrushWhite} alt='brush'/>
+                <div className='date-container'>
+                  <p className='date-bleu'>Grenoble - 11/10/1988</p>
+                </div>
               </div>
             </div>
           </div>
@@ -182,12 +188,11 @@ export default function Galerie (props) {
       </div>
       <div className='galerie-body pb-5'>
         <div className='container mt-5 pt-5'>
-          <div className=''>
-            <div className='col-4'></div>
-            <div className='col-8'>
+          <div className='row'>
+            <div className='col-6'>
               <h3>Grattage</h3>
-              <p className='p-text'>    J'ai gratté dans mes cheveux et ce fut :<br/>
-              L'éclat de la pellicule -acteur -<br/>
+              <p className='p-text'>J'ai gratté dans mes cheveux et ce fut :<br/>
+              L'éclat de la pellicule - acteur -<br/>
               J'ai gratté de la quitare et ce fut :<br/>
               La danse du bourdon - menteur - <br/>
               J'ai gratté dans l'eau et c'était rigolo-Cléo.<br/>
@@ -198,11 +203,106 @@ export default function Galerie (props) {
               J'ai saigné très fort, mais ce n'est pas grave<br/>
               Car maintenant une fée me soigne assidument :<br/>
               L'Espérance !<br/></p>
-            </div>
-            <div className='d-flex position-relative'>
+              <div className='d-flex position-relative'>
               <img className='brush' src={Brush4} alt='brush'/>
               <div className='date-container'>
                 <p className='date'>Valréas - 26/12/1988</p>
+              </div>
+            </div>
+            </div>
+            <div className='col-6'>
+              <div>
+                <img className='news-heigh' src={News} alt='daniel'/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className='bleu-body pb-5'>
+        <div className='container mt-5 pt-5'>
+          <div className='row pt-5 pb-5'>
+            <div className='col-6 position-relative'>
+              <div className='img-sticky'>
+              <img className='dd4' src={Dd4} alt='daniel'/>
+              </div>
+            </div>
+            <div className='col-6 text-align-end'>
+              <h3 className='text-white'>La Panne</h3>
+              <p className='p-text text-white'> Carré bleu, rayé, devant où un oiseau blanc passe<br/>
+                Au fond, là-bas du côté de la Sarthe le cercle du temps<br/>
+                Entonne son insolent bourdonnement musical<br/>
+                St Léonard égraine le temps en face de mon regard <br/>
+                Tamis de vie où petit ironique déjà mais innocent<br/>
+                J'observais curieux la robe du serviteur d'un géant<br/>
+                <br/>
+                Petit cercle blanc insolite sur le haut d'un crâne<br/>
+                Tonsure de celui qui sur de sa foi avait le ton sur !<br/>
+                Pastille ronde et blanche sur fond de chevelure sombre<br/>
+                Là d'où de loin je te revois tapis dans l'ombre<br/>
+                Je me dis tant de choses en moi qui me sens en panne !<br/>
+                J'attends que les rayures brunes s'effacent <br/>
+                Que l'oiseau blanc en liberté m'emportât<br/>
+                Je rêve aussi de l'arrivée d'une corde lisse<br/>
+                <br/>
+                Cercle bleu marine tout en pointillé<br/>
+                Ronde d'encre de chine sortie de mon cartable<br/>
+                Anneau perdu insolent rappel du passé sur le bras gauche<br/>
+                Bague de sang initiale de la vie d'un « ado » écorché  <br/>
+                La vie et les temps à venir éclairent mon obscurité<br/>
+                Le temps détient le secret de la lumière en moi <br/>
+                <br/>
+                Hier le courant avec beaucoup d'intensité<br/>
+                Autrefois et avant lorsque je ne me retenais guère<br/>
+                Je sais bien qu'après un jour unique tant voulu<br/>
+                Demain le petit carré bleu rayé s'évanouira<br/>
+                Porteur illusionniste de mon écrin temps à combler<br/>
+                Quand une enveloppe enfin sur ma tête de Turc sera !</p>
+              <div className='d-flex position-relative justify-content-end'>
+                <img className='brush brush-white-size' src={BrushWhite} alt='brush'/>
+                <div className='date-container me-5'>
+                  <p className='date-bleu'>1969</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className='galerie-body pb-5'>
+        <div className='container mt-5 pt-5'>
+          <div className='row'>
+            <div className='col-6'>
+              <h3>Existance</h3>
+              <p className='p-text'>Inépuisable vie, invincible existence,<br/>
+                Intarissable ennui et maudite souffrance<br/>
+                La vie ? J'aimerais qu'elle m'obéisse !<br/>
+                Qu'elle fasse tous mes caprices<br/>
+                Comme j'aimerais qu'elle cède <br/>
+                Mais seule la mort la possède<br/>
+
+                Le temps passe et repasse
+                Et toutes les âmes trépassent !<br/>
+                Là peu importe la classe<br/>
+                Peu importe le milieu<br/>
+                Puisqu'il faut qu'on y passe<br/>
+                Autant que ce soit vieux !<br/>
+
+                Personne n'en réchappe<br/>
+                Lorsque la mort nous frappe !<br/>
+                Et toi tristesse tu existes<br/>
+                Toi qui nous rends si triste<br/>
+                Qui gâche notre jeunesse<br/>
+                Tu peux rire dans ton coin<br/>
+                Car moi, je t'aurais bien !<br/></p>
+              <div className='d-flex position-relative'>
+                <img className='brush' src={Brush4} alt='brush'/>
+                <div className='date-container'>
+                  <p className='date'>Valréas - 26/12/1988</p>
+                </div>
+              </div>
+            </div>
+            <div className='col-6'>
+              <div>
+                <img className='news-heigh' src={News} alt='daniel'/>
               </div>
             </div>
           </div>

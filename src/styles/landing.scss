@@ -7,6 +7,9 @@
   height: 85%;
   transform: rotate(179deg);
 }
+.margin-brush{
+  margin-left: -14px;
+}
 .subtitle-container{
   display: flex;
   position: absolute;
@@ -43,8 +46,8 @@
   transition: ease-in 0.1s;
 }
 .paintings:hover{
-  height: 548px;
-  transform: rotate(8deg);
+  height: 528px;
+  transform: rotate(4deg);
 }
 .marker-container{
   position: absolute;
@@ -55,8 +58,8 @@
   transition: ease-in 0.1s;
 }
 .marker:hover{
-  height: 287px;
-  transform: rotate(8deg);
+  height: 265px;
+  transform: rotate(4deg);
 }
 .dd-container{
   position: absolute;
@@ -66,12 +69,12 @@
 .dd{
   height: 238px;
   -webkit-box-shadow: -2px 5px 14px -6px #52432D; 
-  box-shadow: -2px 5px 14px -6px #52432D;
+  box-shadow: -2px 5px 10px -6px #52432D;
   border: 3px solid #ede9de;
   transform: rotate(4deg);
   transition: ease-in 0.1s;
 }
 .dd:hover{
-  height: 258px;
-  transform: rotate(8deg);
+  height: 246px;
+  transform: rotate(7deg);
 }

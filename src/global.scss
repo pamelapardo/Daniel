@@ -32,7 +32,10 @@ h3{
 }
 .p-text{
   color: #08203D;
-  font-size: 22px;
+  font-size: 20px;
+}
+.text-justify{
+  text-align: justify;
 }
 button{
   background-color: transparent;
@@ -148,19 +151,29 @@ button{
 .dd-image{
   height: 75%;
 }
+.p-text-histoire{
+  color: #08203D;
+  font-size: 15px;
+}
 
 
 // POESIE ************
 .text-align-end{
   text-align: end;
 }
-
+.brush-white-size{
+  height: 95px;
+  margin-top: 22px;
+}
 .italic{
   font-style: italic;
 }
 
 .dd2{
   height: 390px;
+}
+.dd4{
+  height: 414px;
 }
 
 .citation{
@@ -191,4 +204,11 @@ button{
 .dd5{
   right: 0px;
   height: 596px;
+}
+.img-sticky{
+  position: sticky;
+  top: 165px;
+}
+.news-heigh{
+  max-height: 600px;
 }

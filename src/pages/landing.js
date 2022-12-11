@@ -46,7 +46,7 @@ export default function Landing(props) {
           <div class="col-6 mt-5 name-title">
             <h1 className='color-red'>Daniel</h1>
             <h1>Deschamps</h1>
-            <div className='d-flex position-relative'>
+            <div className='d-flex position-relative margin-brush'>
               <img className='brush1' src={Brush1} alt='brush'/>
               <div className='subtitle-container'>
                 <p className='subtitle'>Peintre, poete, écrivain... Pluridisciplinaire</p>

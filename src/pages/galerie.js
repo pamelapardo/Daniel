@@ -50,20 +50,6 @@ const paintingArray = [
 ]
 
 export default function Galerie(props) {
-  // const triggers = document.getElementsByClassName('trigger');
-  // const triggerArray = Array.from(triggers).entries();
-  // const modals = document.getElementsByClassName('modal-1');
-  // const closeButtons = document.getElementsByClassName('btn-close');
-
-  // TODO: ça sert à rien
-  // for (let [index, trigger] of triggerArray) {
-  //   const toggleModal = () => {
-  //     modals[index].classList.toggle('show-modal');
-  //   }
-  //   trigger.addEventListener("click", toggleModal);
-  //   closeButtons[index].addEventListener("click", toggleModal);
-  // }
-
   return (
     <div className=' scroll'>
       <Header />
@@ -74,39 +60,6 @@ export default function Galerie(props) {
         </div>
         <div className='paintings_container'>
 
-          {/* <button className='painting-size trigger'>
-            <img className='painting' src={P1} alt='peinture'/>
-          </button>
-
-          <button className='painting-size trigger'>
-            <img className='painting' src={P2} alt='peinture'/>
-          </button> */}
-
-
-          <div class="modal-1">
-            <div class="modal-contenu">
-              <span class="btn-close">&times;</span>
-              <div className="modal-header">
-              </div>
-
-              <div className="modal-body">
-                <div className="container h-100">
-                  <div className="row h-100">
-                    <div className="col-6 h-100">
-                      <img className="peinture-modal" src={P1} alt="peinture" />
-                    </div>
-                    <div className="col-6 h-100">
-                      <div className="h-100 ms-5 d-flex align-items-center justify-content-start">
-                        <p className="modal-text">Text LOREM IPSUM</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <h3>test</h3>
           {
             paintingArray.map((imageSrc, index) => {
               return <ImageComponent
