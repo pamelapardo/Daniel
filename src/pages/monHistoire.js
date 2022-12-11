@@ -1,12 +1,20 @@
-import React from 'react';
+import React,{ useEffect } from 'react';
 import Header from '../components/header';
 import Brush3 from '../images/brush3.png'
 import Dd1 from '../images/daniel1.jpg';
 import Dd2 from '../images/daniel2.png';
 import Dd3 from '../images/daniel3.jpg';
 import Livre from '../images/livre.png';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
-export default function Galerie (props) {
+function MonHistoire() {
+ useEffect(() => {
+    Aos.init({ 
+      duration: 600,
+      easing: 'ease',
+      once: false });
+ });
   return (
     <div className=' scroll'>
       <Header/>
@@ -52,10 +60,10 @@ export default function Galerie (props) {
       </div>
       <div className='galerie-body pb-5'>
         <div className='container mt-5'>
-          <div className='row>'>
+          <div className='row justify-content-center'>
             <div className='col-8'>
               <h3>Un personnage haut en couleurs</h3>
-              <p className='p-text-histoire'>Une enfance inquiète , un service adolescence malmenée, intranquille dont la trame le conduira vers des événements traumatiques , 
+              <p className='p-text-histoire text-justify'>Une enfance inquiète , un service adolescence malmenée, intranquille dont la trame le conduira vers des événements traumatiques , 
               des souffrances infligées .Il conserve malgré tout une cohérence mentale absolue, une honnêteté ,une sincérité, 
               une volonté farouche à vouloir sauver sa vie,servie en cela par une intelligence et une vivacité d'esprit remarquables.
               Il à la séduction inscrite dans son ADN; amoureux de tous les instants, il multiplie les liaisons , les aventures ,les mariages...
@@ -115,3 +123,5 @@ export default function Galerie (props) {
     </div>
   );
 };
+
+export default MonHistoire;

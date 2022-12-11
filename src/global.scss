@@ -49,6 +49,20 @@ button{
 .text-white{
   color: #FFFBF1 !important;
 }
+.aos-effect{
+  transition-timing-function: ease;
+  transition-duration: .6s;
+  opacity: 0;
+  transition-property: opacity, transform;
+  overflow: hidden;
+  transform: translate3d(0,100px,0) scale(.6) ;
+}
+
+
+
+
+
+
 
 
 // LANDING ***********
