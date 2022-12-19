@@ -25,7 +25,7 @@ function MonHistoire() {
         </div>
         <div className='container mt-4'>
           <div className='row justify-content-center'>
-            <div className='col-10'>
+            <div className='col-12'>
               <h3> Daniel, un personnage littéralement extraordinaire… </h3>
               <p className='p-text-histoire text-justify'>Daniel Deschamps est une personne extra-ordinaire. Avide d'évolution, cet homme n'a rien du commun des mortels, et je vais, humblement avec admiration néanmoins de ma vous conter les prémices de sa ou ses diverses vies à droite, à gauche, au centre.
                 L'homme accompli est ce que l'on appelle une boule à mille facette, impossible à ranger dans une case au point qu'il en ferait pâlir le camouflage du caméléon.
@@ -49,7 +49,7 @@ function MonHistoire() {
       <div className='bleu-body pt-5'>
         <div className='container'>
           <div className='row'>
-            <div className='col-6 '>
+            <div className='col-6 d-flex justify-content-end'>
               <img src={Dd1} className='dd-image'/>
             </div>
             <div className='col-6 d-flex align-items-center'>
@@ -61,7 +61,7 @@ function MonHistoire() {
       <div className='galerie-body pb-5'>
         <div className='container mt-5'>
           <div className='row justify-content-center'>
-            <div className='col-8'>
+            <div className='col-12'>
               <h3>Un personnage haut en couleurs</h3>
               <p className='p-text-histoire text-justify'>Une enfance inquiète , un service adolescence malmenée, intranquille dont la trame le conduira vers des événements traumatiques , 
               des souffrances infligées .Il conserve malgré tout une cohérence mentale absolue, une honnêteté ,une sincérité, 
@@ -78,7 +78,7 @@ function MonHistoire() {
       <div className='bleu-body pt-5 pb-5'>
         <div className='container'>
           <div className='row'>
-            <div className='col-6'>
+            <div className='col-6 d-flex justify-content-end'>
               <img src={Dd2} className='dd2'/>
             </div>
             <div className='col-6 d-flex align-items-center'>
@@ -88,11 +88,11 @@ function MonHistoire() {
         </div>
       </div>
       <div className='galerie-body pb-5'>
-        <div className='container mt-5 pt-5'>
+        <div className='container pt-5'>
           <div className='row'>
-            <div className='col-8'>
+            <div className='col-6'>
               <h3>Son histoire. Une révélation, prochainement disponible :</h3>
-              <p className='p-text-histoire pe-5'>Une œuvre édifiante relatant un sort à la Edmond Dantès ou Jean Valjean !..
+              <p className='p-text-histoire text-justify pe-5'>Une œuvre édifiante relatant un sort à la Edmond Dantès ou Jean Valjean !..
               C'est le récit d'une vie atypique et d'un destin chaotique d'un adolescent,venu du monde forain qui sera spécialement malmené.
               Pourtant le héros assurera sa vie avec brio. Il nous montre comment transcender ses blessures morales pour maîtriser sa vie et repousser l'adversité pour finalement trouver le chemin de la liberté intérieure.
               Lui sait ce que liberté veut dire!..Le récit captivant nous emmène dans un monde où nul autre n'ira.
@@ -100,7 +100,7 @@ function MonHistoire() {
               <br/>
               Découvrez son livre, la révélation, l'Histoire fascinante d'un homme extraordinaire, Daniel Deschamps :</p>
             </div>
-            <div className='col-4'>
+            <div className='col-6'>
               <div className=''>
                 <img className='page' src={Livre} alt='page'/>
               </div>
@@ -111,7 +111,7 @@ function MonHistoire() {
       <div className='bleu-body pt-5 pb-5'>
         <div className='container'>
           <div className='row'>
-            <div className='col-6'>
+            <div className='col-6 d-flex justify-content-end'>
               <img src={Dd3} className='dd2'/>
             </div>
             <div className='col-6 d-flex align-items-center'>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Montserrat:ital,wght@0,400;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cormorant+SC:wght@400;500&family=Montserrat:ital,wght@0,400;0,500;1,300&display=swap');
 a{
   text-decoration: none !important;
 }
@@ -9,10 +9,11 @@ a{
   height: 100vh;
 }
 h1{
-  font-family: 'Cinzel', serif;
+  font-family: 'Cormorant SC', serif;
+  font-weight: 500;
   color: #08203D;
-  font-size: 55pt !important;
-  margin-bottom: -1.5rem !important;
+  font-size: 64pt !important;
+  margin-bottom: -1.9rem !important;
 }
 h3{
   font-family: 'Cinzel', serif;

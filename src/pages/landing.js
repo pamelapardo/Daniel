@@ -18,10 +18,6 @@ export default function Landing(props) {
           <img className='circle1' src={Circle1} alt='circle'/>
         </div>
 
-        {/* <div className='page-container'>
-          <img className='page' src={Page} alt='page'/>
-        </div> */}
-
         <div class="col-6 overflow-none position-relative">
           <div className='paintings-container'>
             <Link to='/galerie'>
