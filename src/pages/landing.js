@@ -5,7 +5,7 @@ import Circle1 from '../images/circle1.png'
 import Paintings from '../images/paintings.png'
 import Marker from '../images/marker.png'
 import Dd from '../images/DD.png'
-import Page from '../images/page.png'
+import Histoire_paint from '../images/histoire-paint.png'
 import { Link } from 'react-router-dom';
 
 export default function Landing(props) {
@@ -35,6 +35,9 @@ export default function Landing(props) {
             <Link to='/monHistoire'>
             <img className='dd' src={Dd} alt='Daniel-Deschamps'/>
             </Link>
+            <div  className='histoire-paint' >
+              <img src={Histoire_paint} alt="histoire-link"/>
+            </div>
           </div>
         </div>
 
@@ -45,7 +48,7 @@ export default function Landing(props) {
             <div className='d-flex position-relative margin-brush'>
               <img className='brush1' src={Brush1} alt='brush'/>
               <div className='subtitle-container'>
-                <p className='subtitle'>Peintre, poete, écrivain... Pluridisciplinaire</p>
+                <p className='subtitle'>Peintre, poete, écrivain, animateur...</p>
               </div>
             </div>
           </div>

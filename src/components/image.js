@@ -13,6 +13,7 @@ const ImageComponent = (props) => {
                 onClick={() => { setShowModal(!showModal) }}
             />
             <ImageModal
+                image={props.image}
                 imageTitle={props.imageTitle}
                 imageText={props.imageText}
                 showModal={showModal}

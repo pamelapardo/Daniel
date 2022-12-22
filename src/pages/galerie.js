@@ -44,9 +44,28 @@ import P36 from '../paintings/p36.jpg'
 import P37 from '../paintings/p37.jpg'
 import '../styles/modal.scss'
 
+// const paintingArray = [
+//   P1, P2, P3, P4, P5, P6, P7, P8, P9, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19,
+//   P20, P21, P22, P23, P24, P25, P26, P27, P28, P29, P30, P31, P32, P33, P34, P35, P36, P37
+// ]
+
 const paintingArray = [
-  P1, P2, P3, P4, P5, P6, P7, P8, P9, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19,
-  P20, P21, P22, P23, P24, P25, P26, P27, P28, P29, P30, P31, P32, P33, P34, P35, P36, P37
+  {image:P1, imageTitle:'Reveuse à la plage',imageText:'Acrylique et brosse, 2000.'},
+  {image:P2, imageTitle:'Retour de pêche',imageText:'Acrylique et brosse, 2015.'},
+  {image:P3, imageTitle:'Piscine romaine mar CALVI',imageText:'Dessin papier, 1999.'},
+  {image:P4, imageTitle:'Pinasse et voile enroulée',imageText:'Acrylique et brosse, 1999.'},
+  {image:P5, imageTitle:'Pinasse en canal',imageText:'Acrylique support bois tissus, 1998.'},
+  {image:P6, imageTitle:'Mosquée de Sidi Bou SAID',imageText:'Acrylique et brosse, 2000.'},
+  {image:P7, imageTitle:'Les WC de la prison',imageText:'Acrylique et brosse, 2000.'},
+  {image:P8, imageTitle:'Les roulottes',imageText:'Couteau lissé et Huile, 1976.'},
+  {image:P9, imageTitle:'Le parcmetre',imageText:'Huile et brosse, 1975.'},
+  {image:P10, imageTitle:'Le limonaire',imageText:'Acrylique et brosse, 1999.'},
+  {image:P11, imageTitle:'Le lard de la table',imageText:'Acrylique et brosse, 1999.'},
+  {image:P12, imageTitle:'Le gitan',imageText:'Huile et brosse, 1982.'},
+  {image:P13, imageTitle:'Le bilboquet',imageText:'Huile et brosse, 1989.'},
+  {image:P14, imageTitle:'La cuisse',imageText:'Acrylique et brosse, 2018.'},
+  {image:P15, imageTitle:'Inconnue vision fougue',imageText:'Acrylique et brosse, 2005.'},
+
 ]
 
 export default function Galerie(props) {
@@ -64,9 +83,9 @@ export default function Galerie(props) {
             paintingArray.map((imageSrc, index) => {
               return <ImageComponent
                 key={index}
-                image={imageSrc}
-                imageTitle={`Image ${index}`}
-                imageText={`lorem ispum ameno ${index}`}
+                image={imageSrc.image}
+                imageTitle={imageSrc.imageTitle}
+                imageText={imageSrc.imageText}
               />
             })
           }

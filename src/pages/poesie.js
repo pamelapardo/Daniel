@@ -7,6 +7,9 @@ import News from '../images/news2.png';
 import Dd4 from '../images/dd4.png';
 import Dd5 from '../images/daniel5.png';
 import Poesies from '../images/poeme-1.png'
+import PapaPoesie from '../images/papa-poesie.png'
+import Dd6 from '../images/dd6.png'
+import PoesieLibre from '../images/poesie-libre.png'
 
 export default function Galerie (props) {
   return (
@@ -60,50 +63,55 @@ export default function Galerie (props) {
       </div>
       <div className='bleu-body pb-5'>
         <div className='container mt-5 pt-5'>
-          <div className='pt-5 pb-5'>
-            <div className='text-align-end'>
+          <div className='row pt-5 pb-5'>
+            <div className='col-6'>
+                <div className='img-sticky'>
+                  <img className='poesie-libre' src={PoesieLibre} alt='daniel'/>
+                </div>
+              </div>
+            <div className='col-6 text-align-end'>
               <h3 className='text-white'>Poésie libre III</h3>
               <p className='p-text text-white'>Si quelquefois de tes mains frêles et douces tu<br/>
-            t'aventurais à caresser tendrement ma peau en<br/>
-            manque du frôlement de tes longs doigts fins,<br/>
-            guérisseurs…<br/>
-            <br/>
-            Si quelquefois ta bouche pulpeuse, au dessin de<br/>
-            rêve, venait effleurer affectueusement la joue<br/>
-            d'un mâle qui t'admire…<br/>
-            <br/>
-            Si, en plus, oh merveille ! , tes bras venaient<br/>
-            s'ajouter en m'encerclant à ce flot de dons suaves<br/>
-            et sécurisants.<br/>
-            <br/>
-            Si à tout ce lot d'offrandes tes yeux noirs,<br/>
-            en amandes et fascinants,  jouaient les falots de<br/>
-            l'amour : Je me sentirai humain car tu serais <br/>
-            humaine rien qu'en te voulant mienne.<br/>
-            <br/>
-            Moi, depuis la nuit des temps je suis tien ! … <br/>
-            Si quelquefois je pouvais soulever tes longs<br/>
-            cheveux soyeux pour ceindre ton cou de cygne paci-<br/>
-            fique et sentir la douceur de ta peau qui m'enivre<br/>
-            Si quelquefois tu voulais entendre de ma bouche,<br/>
-            que d'autres disent sensuelle, des mots qui n'en<br/>
-            sont jamais sortis je me sentirai plus que tien :<br/>
-            je me sentirai humain.<br/>
-            <br/>
-            si de toutes les larmes qui coulèrent du bleu<br/>
-            de mes yeux, tu voulais faire un océan d'espoir.<br/>
-            Si, de toute ton âme, tu voulais par amour faire<br/>
-            de notre union une baguette magique tu ferais de<br/>
-            nous, plus qu'un couple, tu créerais une entité<br/>
-            amoureuse.<br/>
-            <br/>
-            Tu te réaliserais enfin, sans autre concours que<br/>
-            toi, tu te révèlerais à toi, à moi, à la vie ! …<br/></p>
-            </div>
-            <div className='d-flex position-relative justify-content-end'>
-              <img className='brush brush-white-size' src={BrushWhite} alt='brush'/>
-              <div className='date-container me-5'>
-                <p className='date-bleu'>1986</p>
+              t'aventurais à caresser tendrement ma peau en<br/>
+              manque du frôlement de tes longs doigts fins,<br/>
+              guérisseurs…<br/>
+              <br/>
+              Si quelquefois ta bouche pulpeuse, au dessin de<br/>
+              rêve, venait effleurer affectueusement la joue<br/>
+              d'un mâle qui t'admire…<br/>
+              <br/>
+              Si, en plus, oh merveille ! , tes bras venaient<br/>
+              s'ajouter en m'encerclant à ce flot de dons suaves<br/>
+              et sécurisants.<br/>
+              <br/>
+              Si à tout ce lot d'offrandes tes yeux noirs,<br/>
+              en amandes et fascinants,  jouaient les falots de<br/>
+              l'amour : Je me sentirai humain car tu serais <br/>
+              humaine rien qu'en te voulant mienne.<br/>
+              <br/>
+              Moi, depuis la nuit des temps je suis tien ! … <br/>
+              Si quelquefois je pouvais soulever tes longs<br/>
+              cheveux soyeux pour ceindre ton cou de cygne paci-<br/>
+              fique et sentir la douceur de ta peau qui m'enivre<br/>
+              Si quelquefois tu voulais entendre de ma bouche,<br/>
+              que d'autres disent sensuelle, des mots qui n'en<br/>
+              sont jamais sortis je me sentirai plus que tien :<br/>
+              je me sentirai humain.<br/>
+              <br/>
+              si de toutes les larmes qui coulèrent du bleu<br/>
+              de mes yeux, tu voulais faire un océan d'espoir.<br/>
+              Si, de toute ton âme, tu voulais par amour faire<br/>
+              de notre union une baguette magique tu ferais de<br/>
+              nous, plus qu'un couple, tu créerais une entité<br/>
+              amoureuse.<br/>
+              <br/>
+              Tu te réaliserais enfin, sans autre concours que<br/>
+              toi, tu te révèlerais à toi, à moi, à la vie ! …<br/></p>
+              <div className='d-flex position-relative justify-content-end'>
+                <img className='brush brush-white-size' src={BrushWhite} alt='brush'/>
+                <div className='date-container me-5'>
+                  <p className='date-bleu'>1986</p>
+                </div>
               </div>
             </div>
           </div>
@@ -111,9 +119,8 @@ export default function Galerie (props) {
       </div>
       <div className='galerie-body pb-5'>
         <div className='container mt-5 pt-5'>
-          <div className=''>
-            <div className='col-4'></div>
-            <div className='col-8'>
+          <div className='row'>
+            <div className='col-6'>
               <h3>Papa</h3>
               <p className='p-text'>P comme pauvre<br/>
               A comme âne<br/>
@@ -137,11 +144,16 @@ export default function Galerie (props) {
               qu'il adore,ce sont les histoires auxquelles<br/>
               tu crois : celles qui t'agrandissent les yeux<br/>
               et l'imagination !<br/></p>
+              <div className='d-flex position-relative'>
+                <img className='brush' src={Brush4} alt='brush'/>
+                <div className='date-container'>
+                  <p className='date'>Paris - 10/04/1987</p>
+                </div>
+              </div>
             </div>
-            <div className='d-flex position-relative'>
-              <img className='brush' src={Brush4} alt='brush'/>
-              <div className='date-container'>
-                <p className='date'>Paris - 10/04/1987</p>
+            <div className='col-6'>
+              <div className='img-sticky'>
+                <img className='papa-img' src={PapaPoesie} alt='daniel'/>
               </div>
             </div>
           </div>
@@ -204,11 +216,11 @@ export default function Galerie (props) {
               Car maintenant une fée me soigne assidument :<br/>
               L'Espérance !<br/></p>
               <div className='d-flex position-relative'>
-              <img className='brush' src={Brush4} alt='brush'/>
-              <div className='date-container'>
-                <p className='date'>Valréas - 26/12/1988</p>
+                <img className='brush' src={Brush4} alt='brush'/>
+                <div className='date-container'>
+                  <p className='date'>Valréas - 26/12/1988</p>
+                </div>
               </div>
-            </div>
             </div>
             <div className='col-6'>
               <div>
@@ -296,13 +308,13 @@ export default function Galerie (props) {
               <div className='d-flex position-relative'>
                 <img className='brush' src={Brush4} alt='brush'/>
                 <div className='date-container'>
-                  <p className='date'>Valréas - 26/12/1988</p>
+                  <p className='date'>Alençon - 1970</p>
                 </div>
               </div>
             </div>
             <div className='col-6'>
-              <div>
-                <img className='news-heigh' src={News} alt='daniel'/>
+              <div className='img-sticky'>
+                <img className='news-heigh' src={Dd6} alt='daniel'/>
               </div>
             </div>
           </div>

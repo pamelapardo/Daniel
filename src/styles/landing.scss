@@ -70,6 +70,17 @@
   position: absolute;
   bottom: 305px;
   right: 81px;
+  &:hover {
+    .histoire-paint{
+      display: flex;
+      left: 571px;
+      position: fixed;
+      bottom: 291px;
+      height: 104px;
+      width: 100%;
+      transition: ease-in 0.6s;
+    }
+  }
 }
 .dd{
   height: 215px;
@@ -85,4 +96,14 @@
 .dd:hover{
   height: 235px;
   transform: rotate(7deg);
+}
+
+.histoire-paint{
+  left: 232px;
+  position: fixed;
+  bottom: 448px;
+  height: 114px;
+  width: 0px;
+  display: none;
+  transition: ease-in 0.6s;
 }

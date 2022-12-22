@@ -1,61 +1,27 @@
 .modal-1{
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #132539af;
-  opacity: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  visibility: hidden;
-  transform: scale(1.1);
-  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
-  &.modal-contenu{
-    align-self: center;
-    background-color: white;
-    padding: 1rem 1.5rem;
-    width: 24rem;
-    border-radius: 0.5rem;
-  }
-}
-.btn-close{
-  float: right;
-  width: 1.5rem;
-  line-height: 1.5rem;
-  text-align: center;
-  cursor: pointer;
-  border-radius: 0.25rem;
-  background-color: lightgray;
-}
-.show-modal{
-  opacity: 1;
-  visibility: visible;
-  transform: scale(1.0);
-  transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+  background-color: #08203d52 !important;
 }
 
-
-.modal-1.show{
-  opacity: 1;
-  pointer-events: visible;
+.img-modal{
+  width: 290px;
 }
 
-.modal-contenu{
-  width: 80vw;
-  height: 80vh;
+.modal-content{
+  top: 50px;
+  padding: 1.5rem 1.5rem;
+  border-radius: 0.5rem;
+  width: 130% !important;
+  margin-left: -15% !important;
 }
 
 .modal-header{
   height: 8vh;
-  justify-content: end !important;
 }
 
-.modal-body{
-  height: 72vh;
-  width: 100%;
-}
+// .modal-body{
+//   height: 72vh;
+//   width: 100%;
+// }
 
 .modal-text{
   color: #FFFBF1;
@@ -102,21 +68,4 @@
   letter-spacing: 2px;
   transition: all .3s ease-in;
   opacity: 0;
-}
-
-.close{
-  margin: 34px 0 0 0px;
-  position: absolute;
-}
-
-.close-container:hover .leftright{
-  transform: rotate(-45deg);
-  background-color: #d27246;
-}
-.close-container:hover .rightleft{
-  transform: rotate(45deg);
-  background-color: #d27246;
-}
-.close-container:hover label{
-  opacity: 1;
 }
