@@ -7,8 +7,12 @@ const ImageModal = (props) => {
         <div>
           <img className='img-modal' src={props.image} alt='painting'/>
         </div>
-        <div>
-          <Modal.Header closeButton><Modal.Title>{props.imageTitle}</Modal.Title></Modal.Header>
+        <div className='modal-content-container'>
+          <Modal.Header className='modal-header' closeButton>
+            <div  className='modal-title'>
+              <Modal.Title>{props.imageTitle}</Modal.Title>
+            </div>
+            </Modal.Header>
           <Modal.Body>{props.imageText}</Modal.Body>
         </div>
       </div>

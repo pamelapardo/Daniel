@@ -6,7 +6,9 @@ import Paintings from '../images/paintings.png'
 import Marker from '../images/marker.png'
 import Dd from '../images/DD.png'
 import Histoire_paint from '../images/histoire-paint.png'
+import Poesie_paint from '../images/poesie-paint.png'
 import { Link } from 'react-router-dom';
+import Galerie_paint from '../images/galerie-paint.png'
 
 export default function Landing(props) {
   return (
@@ -22,22 +24,28 @@ export default function Landing(props) {
           <div className='paintings-container'>
             <Link to='/galerie'>
             <img className='paintings' src={Paintings} alt='paintings'/>
+            <div className='galerie-paint' >
+              <img src={Galerie_paint} alt="histoire-link"/>
+            </div>
             </Link>
           </div>
 
           <div className='marker-container'>
             <Link to='/poesie'>
             <img className='marker' src={Marker} alt='marker'/>
+            <div className='poesie-paint' >
+              <img src={Poesie_paint} alt="histoire-link"/>
+            </div>
             </Link>
           </div>
 
           <div className='dd-container'>
             <Link to='/monHistoire'>
             <img className='dd' src={Dd} alt='Daniel-Deschamps'/>
-            </Link>
-            <div  className='histoire-paint' >
+            <div className='histoire-paint' >
               <img src={Histoire_paint} alt="histoire-link"/>
             </div>
+            </Link>
           </div>
         </div>
 

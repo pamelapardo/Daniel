@@ -12,60 +12,45 @@
   border-radius: 0.5rem;
   width: 130% !important;
   margin-left: -15% !important;
+  background-color: #eeebe3 !important;
 }
 
 .modal-header{
-  height: 8vh;
+  padding: 0px !important;
+  border-bottom: 0px !important;
+  height: 50%;
+  display: flex !important;
+  align-items: flex-start !important;
 }
 
-// .modal-body{
-//   height: 72vh;
-//   width: 100%;
-// }
-
-.modal-text{
-  color: #FFFBF1;
-  font-size: 22px;
+.modal-header .btn-close {
+  padding: calc(var(--bs-modal-header-padding-y) * 0.5) calc(var(--bs-modal-header-padding-x) * 0.5);
+  margin: 0px !important;
 }
 
-.peinture-modal{
-  max-height: 100%;
-  max-width: 36vw;
+.modal-title{
+  display: flex !important;
+  height: 100% !important;
+  align-items: flex-end !important;
 }
 
-.close-container{
-  position: relative;
-  margin: auto;
-  height: 50px;
-  cursor: pointer;
+.modal-body{
+  padding-top: 9px !important;
+  padding-left: 0px !important;
+  display: flex !important;
+  justify-content: flex-start !important;
+  color: #08203D;
+  font-size: 15px;
 }
 
-.leftright{
-  height: 4px;
-  width: 50px;
-  position: absolute;
-  background-color: #FFFBF1;
-  border-radius: 2px;
-  transform: rotate(45deg);
-  transition: all .3s ease-in;
+.modal-content-container{
+  width: 100%;
+  padding-left: 40px;
 }
 
-.rightleft{
-  height: 4px;
-  width: 50px;
-  position: absolute;
-  background-color: #FFFBF1;
-  border-radius: 2px;
-  transform: rotate(-45deg);
-  transition: all .3s ease-in;
-}
-
-.label-modal{
-  color: white;
-  font-family: Helvetica, Arial, sans-serif; 
-  font-size: .6em;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  transition: all .3s ease-in;
-  opacity: 0;
+.modal-title{
+  font-family: "Cormorant SC", serif;
+  color: #08203D;
+  font-size: 25pt !important;
+  line-height: 1 !important;
 }

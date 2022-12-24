@@ -40,17 +40,8 @@ function MonHistoire() {
                 Enfant de ce riche atmosphère, à 12 ans seulement, il comprenait déjà le fonctionnement de l'argent et des gens.<br/>
                 Il sait inventer les slogans grâce à l'importance de l'élocution et, plus généralement, il applique les règles fondamentales qui régissent notre société.<br/>
                 C'est ainsi qu'il s'arma et réussira, le plus souvent possible, tout ce qu'il peut entreprendre.<br/>
-                Sa vie est un film unique à découvrir.<br/>
-                <br/>
-                Il a fait preuve d'une combativité et d'un courage exceptionnels, qui méritent d'être suivis, étudiés et imités.<br/>
-                Une enfance marquée du sceau d'une cité d'urgence qui glisse vers une adolescence malmenée, intranquille dont la trame le conduira vers des événements traumatiques, générant souffrances infligées et vexations élévatrices !<br/>
-                Il conserve malgré tout une cohérence mentale absolue, une honnêteté, une sincérité, une volonté farouche à vouloir sauver sa vie, servie en cela par une mémoire et une vivacité d'esprit remarquables.<br/>
-                La séduction est inscrite dans son ADN d'amoureux de tous les instants, il multiplie les liaisons, les aventures, les mariages...<br/>
-                C'est un vagabond de l'amour. Si on le comprend Il est facile de vivre avec lui, singulier volontiers et jovial! Constant et positif !<br/>
-                En résilience forcenée et altruiste, il s'intéresse à tout dont à lui de façon débordante, presque provocatrice.<br/>
-                <br/>
-                Un peu agressif quand il le faut, un peu misogyne, transgressif, il se montre tout de même bon humaniste qui peut être généreux et empathique.<br/>
-                Atypique, attachant, il est et c'est une personnalité extrême !!!<br/></p>
+                Sa vie est un film unique à découvrir. C'est un être attachant, il est et c'est une personnalité extrême !<br/>
+                </p>
             </div>
           </div>
         </div>
@@ -59,7 +50,7 @@ function MonHistoire() {
         <div className='container'>
           <div className='row'>
             <div className='col-6 d-flex justify-content-end'>
-              <img src={Dd1} className='dd-image'/>
+              <img src={Dd1} className='dd-image' alt='daniel'/>
             </div>
             <div className='col-6 d-flex align-items-center'>
               <p className='p-text text-white italic'>Le “jeu de boule” de son père forain.</p>
@@ -77,9 +68,7 @@ function MonHistoire() {
                 La séduction est ancrée dans son ADN d'amoureux de tous les instants, il multiplie les liaisons, les aventures et les mariages. C'est un vagabond de l'amour. <br/>
                 Si on le comprend, il est facile de vivre avec lui, il est volontiers singulier et jovial, constant et positif.<br/>
                 Il est résilient et altruiste, et s'intéresse à tout, y compris à lui-même de manière débordante, presque provocante.<br/>
-                Il peut être un peu agressif quand c'est nécessaire, un peu misogyne et transgressif, mais il reste un bon humaniste qui peut être généreux et empathique.<br/>
-                <br/>
-                Atypique et attachant, c'est une personnalité extrême !!!<br/></p>
+                Il peut être un peu agressif quand c'est nécessaire, un peu misogyne et transgressif, mais il reste un bon humaniste qui peut être généreux et empathique.<br/></p>
             </div>
           </div>
         </div>
@@ -88,10 +77,10 @@ function MonHistoire() {
         <div className='container'>
           <div className='row'>
             <div className='col-6 d-flex justify-content-end'>
-              <img src={Dd2} className='dd2'/>
+              <img src={Dd2} className='dd2' alt='daniel'/>
             </div>
             <div className='col-6 d-flex align-items-center'>
-              <p className='p-text text-white italic citation'>“Je suis invincible, c'est simple, je suis un winner.”</p>
+              <p className='p-text text-white italic citation'>“Je suis un conquérant.”</p>
             </div>
           </div>
         </div>
@@ -102,12 +91,12 @@ function MonHistoire() {
             <div className='col-6'>
               <h3>Son histoire. Une révélation, prochainement disponible :</h3>
               <p className='p-text-histoire text-justify pe-5'>Une œuvre édifiante relatant un sort semblable à celui d'Edmond Dantès ou Jean Valjean!<br/>
-C'est le récit d'une vie atypique et d'un destin chaotique d'un adolescent venu du monde forain qui a été spécialement malmené.<br/>
-Pourtant, le héros a réussi à assurer sa vie avec brio.<br/>
-Il nous montre comment transcender ses blessures morales pour maîtriser sa vie et repousser l'adversité, afin de finalement trouver le chemin de la liberté intérieure.<br/>
-Il sait ce que la liberté signifie ! Le récit captivant nous emmène dans un monde où personne d'autre ne va. <br/>
-C'est une histoire sidérante où l'insolite et l'émotion sont au rendez-vous à travers ce livre profond qui nous interroge !<br/>
-Découvrez son livre, la révélation, l'histoire fascinante d'un homme extraordinaire, Daniel Deschamps :<br/></p>
+                C'est le récit d'une vie atypique et d'un destin chaotique d'un adolescent venu du monde forain qui a été spécialement malmené.<br/>
+                Pourtant, le héros a réussi à assurer sa vie avec brio.<br/>
+                Il nous montre comment transcender ses blessures morales pour maîtriser sa vie et repousser l'adversité, afin de finalement trouver le chemin de la liberté intérieure.<br/>
+                Il sait ce que la liberté signifie ! Le récit captivant nous emmène dans un monde où personne d'autre ne va. <br/>
+                C'est une histoire sidérante où l'insolite et l'émotion sont au rendez-vous à travers ce livre profond qui nous interroge !<br/>
+                Découvrez son livre, la révélation, l'histoire fascinante d'un homme extraordinaire, Daniel Deschamps :<br/></p>
             </div>
             <div className='col-6'>
               <div className=''>
@@ -121,7 +110,7 @@ Découvrez son livre, la révélation, l'histoire fascinante d'un homme extraord
         <div className='container'>
           <div className='row'>
             <div className='col-6 d-flex justify-content-end'>
-              <img src={Dd3} className='dd2'/>
+              <img src={Dd3} className='dd2' alt='daniel'/>
             </div>
             <div className='col-6 d-flex align-items-center'>
               <p className='p-text text-white italic citation'>“Toujours être le précurseur, le visionaire.”</p>

@@ -4,9 +4,9 @@ a{
 }
 .global-background{
   background-image: url(./images/background.jpg);
-  background-size: cover;
   background-attachment: scroll;
   height: 100vh;
+  overflow: hidden;
 }
 h1{
   font-family: 'Cormorant SC', serif;
@@ -150,6 +150,12 @@ button{
   width: 100%;
   padding: 10px 5px 10px 5px;
 }
+.painting:hover{
+  max-width: 320px;
+  width: 100%;
+  cursor: pointer;
+  padding: 10px 5px 10px 5px;
+}
 .paintings_container{
   line-height: 0;
   -webkit-column-count: 3;
@@ -230,7 +236,9 @@ button{
 .papa-img{
   height: 340px;
 }
-
 .poesie-libre{
   height: 500px;
+}
+.young{
+  height: 450px;
 }

@@ -4,7 +4,7 @@
 }
 .brush1{
   margin-right: -11px;
-  height: 85%;
+  height: 80%;
   transform: rotate(179deg);
 }
 .margin-brush{
@@ -45,26 +45,62 @@
   position: fixed;
   bottom: 64px;
   left: 55px;
+  &:hover{
+    .galerie-paint{
+      display: flex;
+      position: fixed;
+      height: 95px;
+      bottom: 523px;
+      left: 109px;
+    }
+    .paintings{
+      height: 548px;
+      transform: rotate(4deg);
+    }
+  }
+}
+.galerie-paint{
+  bottom: 523px;
+  left: 109px;
+  position: fixed;
+  display: none;
+  transition: ease-in 0.5s;
+  transition-property: margin-right;
 }
 .paintings{
   height: 528px;
   transition: ease-in 0.1s;
 }
-.paintings:hover{
-  height: 548px;
-  transform: rotate(4deg);
-}
 .marker-container{
   position: fixed;
   bottom: -38px;
+  &:hover{
+    .marker{
+      height: 281px;
+      transform: rotate(4deg);
+    }
+    .poesie-paint{
+      display: flex;
+      position: fixed;
+      height: 95px;
+      left: 421px;
+      bottom: 26px;
+      transition-property: margin-right;
+      transition: ease-in 0.1s;
+    }
+  }
 }
 .marker{
   height: 271px;
   transition: ease-in 0.1s;
 }
-.marker:hover{
-  height: 281px;
-  transform: rotate(4deg);
+.poesie-paint{
+  position: fixed;
+  left: 421px;
+  bottom: 26px;
+  display: none;
+  transition: ease-in 0.1s;
+  transition-property: margin-right;
 }
 .dd-container{
   position: absolute;
@@ -77,8 +113,12 @@
       position: fixed;
       bottom: 291px;
       height: 104px;
-      width: 100%;
-      transition: ease-in 0.6s;
+      transition-property: margin-right;
+      transition: ease-in 0.1s;
+    }
+    .dd{
+      height: 235px;
+      transform: rotate(7deg);
     }
   }
 }
@@ -93,17 +133,14 @@
   transform: rotate(4deg);
   transition: ease-in 0.1s;
 }
-.dd:hover{
-  height: 235px;
-  transform: rotate(7deg);
-}
 
 .histoire-paint{
   left: 232px;
   position: fixed;
   bottom: 448px;
-  height: 114px;
+  height: 0px;
   width: 0px;
   display: none;
-  transition: ease-in 0.6s;
+  transition: ease-in 0.1s;
+  transition-property: margin-right;
 }

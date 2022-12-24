@@ -1,8 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Header from '../components/header';
-import Modal from '../components/modal';
 import ImageComponent from '../components/image';
-import ImageModal from '../components/ImageModal';
 
 import Brush2 from '../images/brush2.png'
 import P1 from '../paintings/p1.jpg'
@@ -25,7 +23,6 @@ import P17 from '../paintings/p17.jpg'
 import P18 from '../paintings/p18.jpg'
 import P19 from '../paintings/p19.jpg'
 import P20 from '../paintings/p20.jpg'
-import P21 from '../paintings/p21.jpg'
 import P22 from '../paintings/p22.jpg'
 import P23 from '../paintings/p23.jpg'
 import P24 from '../paintings/p24.jpg'
@@ -44,11 +41,6 @@ import P36 from '../paintings/p36.jpg'
 import P37 from '../paintings/p37.jpg'
 import '../styles/modal.scss'
 
-// const paintingArray = [
-//   P1, P2, P3, P4, P5, P6, P7, P8, P9, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19,
-//   P20, P21, P22, P23, P24, P25, P26, P27, P28, P29, P30, P31, P32, P33, P34, P35, P36, P37
-// ]
-
 const paintingArray = [
   {image:P1, imageTitle:'Reveuse à la plage',imageText:'Acrylique et brosse, 2000.'},
   {image:P2, imageTitle:'Retour de pêche',imageText:'Acrylique et brosse, 2015.'},
@@ -65,7 +57,27 @@ const paintingArray = [
   {image:P13, imageTitle:'Le bilboquet',imageText:'Huile et brosse, 1989.'},
   {image:P14, imageTitle:'La cuisse',imageText:'Acrylique et brosse, 2018.'},
   {image:P15, imageTitle:'Inconnue vision fougue',imageText:'Acrylique et brosse, 2005.'},
-
+  {image:P16, imageTitle:'Sans titre',imageText:'Aucune information sur ce tableau.'},
+  {image:P17, imageTitle:'Sans titre',imageText:'Aucune information sur ce tableau.'},
+  {image:P18, imageTitle:'Grange a Revel',imageText:'Acrylique et brosse, 2002.'},
+  {image:P19, imageTitle:'Fresque de nus',imageText:'Acrylique et brosse, 1999.'},
+  {image:P20, imageTitle:'Flou de bassan',imageText:'Acrylique et brosse, 1999.'},
+  {image:P22, imageTitle:'Fleurs et livre',imageText:'Acrylique sur papier toile, 2001.'},
+  {image:P23, imageTitle:'Fleur fanée',imageText:'Couteau lissé et huile sur jute, 1976.'},
+  {image:P24, imageTitle:'Fleur de magnolia',imageText:'Carton toile acrylique, 2000.'},
+  {image:P25, imageTitle:'Enfant clown',imageText:'Couteau lissé et huile, 1981.'},
+  {image:P26, imageTitle:'Covid 2021',imageText:'Acrylique et brosse, 2021.'},
+  {image:P27, imageTitle:'Coucher de soleil',imageText:'Couteau lissé, 1976.'},
+  {image:P28, imageTitle:'Christ revenant',imageText:'huile et brosse, 1976.'},
+  {image:P29, imageTitle:'Chatte sur toit de Paris',imageText:'Gouache sur bois, année de création inconue.'},
+  {image:P30, imageTitle:'Chapelle Bagnoles en Forêt',imageText:'Brosse, 1999.'},
+  {image:P31, imageTitle:'Cabane landaise sur bois drapé',imageText:'Acrylique et brosse, année de création inconue.'},
+  {image:P32, imageTitle:'Bateaux Grau du Roy',imageText:'Acrylique et brosse, année de création inconue'},
+  {image:P33, imageTitle:'Anamorphose du clown malheureux',imageText:'Huile et brosse, 1969.'},
+  {image:P34, imageTitle:'Sans titre',imageText:'Aucune information sur ce tableau.'},
+  {image:P35, imageTitle:'Sans titre',imageText:'Aucune information sur ce tableau.'},
+  {image:P36, imageTitle:'Sans Titre',imageText:'Aucune information sur ce tableau.'},
+  {image:P37, imageTitle:'Sans titre',imageText:'Aucune information sur ce tableau.'},
 ]
 
 export default function Galerie(props) {
@@ -89,181 +101,6 @@ export default function Galerie(props) {
               />
             })
           }
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P3} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P3} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P4} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P4} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P5} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P5} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P6} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P6} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P7} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P7} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P8} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P8} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P9} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P9} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P10} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P10} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P11} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P11} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P12} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P12} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P13} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P13} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P14} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P14} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P15} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P15} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P16} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P16} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P17} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P17} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P18} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P18} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P19} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P19} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P20} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P20} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P21} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P21} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P22} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P22} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P23} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P23} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P24} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P24} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P25} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P25} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P26} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P26} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P27} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P27} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P28} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P28} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P29} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P29} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P30} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P30} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P31} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P31} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P32} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P32} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P33} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P33} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P34} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P34} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P35} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P35} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P36} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P36} onClose={() => setShow(false)} show={show}/> */}
-
-          {/* <button className='painting-size' >
-            <img className='painting' src={P37} alt='peinture'/>
-          </button> */}
-          {/* <Modal peinture={P37} onClose={() => setShow(false)} show={show}/> */}
         </div>
       </div>
     </div>

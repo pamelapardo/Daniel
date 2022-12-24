@@ -283,7 +283,7 @@ export default function Galerie (props) {
         <div className='container mt-5 pt-5'>
           <div className='row'>
             <div className='col-6'>
-              <h3>Existance</h3>
+              <h3>Existence</h3>
               <p className='p-text'>Inépuisable vie, invincible existence,<br/>
                 Intarissable ennui et maudite souffrance<br/>
                 La vie ? J'aimerais qu'elle m'obéisse !<br/>
@@ -314,7 +314,7 @@ export default function Galerie (props) {
             </div>
             <div className='col-6'>
               <div className='img-sticky'>
-                <img className='news-heigh' src={Dd6} alt='daniel'/>
+                <img className='young' src={Dd6} alt='daniel'/>
               </div>
             </div>
           </div>
