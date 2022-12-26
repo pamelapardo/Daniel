@@ -19,14 +19,14 @@ function MonHistoire() {
     <div className=' scroll'>
       <Header/>
       <div className='galerie-body pb-5'>
-        <h1>Mon histoire</h1>
+        <h1>Son histoire</h1>
         <div>
           <img className='brush2 mb-3' src={Brush3} alt='brush'/>
         </div>
         <div className='container mt-4'>
           <div className='row justify-content-center'>
             <div className='col-12'>
-              <h3> Daniel, un personnage littéralement extraordinaire… </h3>
+              <h3> Daniel, une personne attachante… </h3>
               <p className='p-text-histoire text-justify'>Daniel Deschamps est une personne extraordinaire.<br/>
                 Avide d'évolution, cet homme est unique, et je vais, humblement mais avec admiration, vous conter les prémices de sa ou de ses diverses vies, ici et là…<br/>
                 Daniel est une personne qui a réalisé de nombreux projets et qui possède de nombreuses qualités et compétences. On pourrait dire qu'il est une "boule à mille facettes".<br/>

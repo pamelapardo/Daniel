@@ -5,7 +5,7 @@ import Brush4 from '../images/brush4.png';
 import BrushWhite from '../images/brush-white.png'
 import News from '../images/news2.png';
 import Dd4 from '../images/dd4.png';
-import Dd5 from '../images/daniel5.png';
+import Spider from '../images/spider.png';
 import Poesies from '../images/poeme-1.png'
 import PapaPoesie from '../images/papa-poesie.png'
 import Dd6 from '../images/dd6.png'
@@ -56,7 +56,7 @@ export default function Galerie (props) {
               </div>
             </div>
             <div className='col-4 d-flex align-items-center overflow-visible'>
-              <img className='dd5' src={Dd5} alt='daniel'/>
+              <img className='spider img-sticky' src={Spider} alt='spider'/>
             </div>
           </div>
         </div>

@@ -23,6 +23,7 @@ import P17 from '../paintings/p17.jpg'
 import P18 from '../paintings/p18.jpg'
 import P19 from '../paintings/p19.jpg'
 import P20 from '../paintings/p20.jpg'
+import P21 from '../paintings/p21.jpg'
 import P22 from '../paintings/p22.jpg'
 import P23 from '../paintings/p23.jpg'
 import P24 from '../paintings/p24.jpg'
@@ -62,6 +63,7 @@ const paintingArray = [
   {image:P18, imageTitle:'Grange a Revel',imageText:'Acrylique et brosse, 2002.'},
   {image:P19, imageTitle:'Fresque de nus',imageText:'Acrylique et brosse, 1999.'},
   {image:P20, imageTitle:'Flou de bassan',imageText:'Acrylique et brosse, 1999.'},
+  {image:P21, imageTitle:'La barque rouge',imageText:'Acrylique sur bois/tissue-brosse, 2013.'},
   {image:P22, imageTitle:'Fleurs et livre',imageText:'Acrylique sur papier toile, 2001.'},
   {image:P23, imageTitle:'Fleur fanée',imageText:'Couteau lissé et huile sur jute, 1976.'},
   {image:P24, imageTitle:'Fleur de magnolia',imageText:'Carton toile acrylique, 2000.'},

@@ -56,7 +56,7 @@ export default function Landing(props) {
             <div className='d-flex position-relative margin-brush'>
               <img className='brush1' src={Brush1} alt='brush'/>
               <div className='subtitle-container'>
-                <p className='subtitle'>Peintre, poete, écrivain, animateur...</p>
+                <p className='subtitle'>Peintre, poete, écrivain, comédien...</p>
               </div>
             </div>
           </div>
