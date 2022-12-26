@@ -81,6 +81,17 @@ button{
     color: #08203D;
     font-size: 10px;
   }
+  .row{
+    display: flex;
+    flex-direction: column;
+  }
+  .col-6{
+    width: 100% !important;
+    & p{
+      text-align: justify;
+      padding: 0px !important;
+    }
+  }
 }
 
 
@@ -156,38 +167,47 @@ button{
   .header-container{
     display: flex;
     justify-content: center ;
+    margin-bottom: 20px;
   }
   .header-text1{
     font-family: 'Montserrat', sans-serif;
-    color: #08203D;
+    color: #FFFBF1;
     font-size: 10pt;
     font-weight: 400;
-    margin: 0px;
-    padding: 20px 16px 35px 16px;
+    margin: 15px 7px;
+    border-radius: 15px;
+    padding: 7px 11px 7px 11px;
+    background-color: #08203D;
   }
   .header-text2{
     font-family: 'Montserrat', sans-serif;
-    color: #08203D;
+    color: #FFFBF1;
     font-size: 10pt;
     font-weight: 400;
-    margin: 0px;
-    padding: 20px 16px 35px 16px;
+    margin: 15px 7px;
+    border-radius: 15px;
+    padding: 7px 11px 7px 11px;
+    background-color: #08203D;
   }
   .header-text3{
     font-family: 'Montserrat', sans-serif;
-    color: #08203D;
-    font-size: 10pt;
+    color: #FFFBF1;
+    font-size: 9pt;
     font-weight: 400;
-    margin: 0px;
-    padding: 20px 16px 35px 16px;
+    margin: 16px 7px;
+    border-radius: 15px;
+    padding: 7px 11px 7px 11px;
+    background-color: #08203D;
   }
   .header-text4{
     font-family: 'Montserrat', sans-serif;
-    color: #08203D;
+    color: #FFFBF1;
     font-size: 10pt;
     font-weight: 400;
-    margin: 0px;
-    padding: 20px 16px 35px 16px;
+    margin: 15px 7px;
+    border-radius: 15px;
+    padding: 7px 11px 7px 11px;
+    background-color: #08203D;
   }
 }
 
@@ -260,11 +280,17 @@ button{
   color: #08203D;
   font-size: 15px;
 }
+.livre{
+  height: 516px;
+}
 @media only screen and (max-width: 600px) {
   .p-text-histoire{
     color: #08203D;
     font-size: 13px;
     line-height: 1.2;
+  }
+  .livre{
+    height: 306px;
   }
 }
 
@@ -322,7 +348,7 @@ button{
   top: 145px;
 }
 .news-heigh{
-  max-height: 600px;
+  max-height: 530px;
 }
 .papa-img{
   height: 340px;

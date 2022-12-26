@@ -38,9 +38,6 @@
   transform: rotate(-45deg);
   height: 300px;
 }
-.page{
-  height: 516px;
-}
 .paintings-container{
   position: fixed;
   bottom: 64px;
@@ -143,4 +140,8 @@
   display: none;
   transition: ease-in 0.1s;
   transition-property: margin-right;
+}
+
+@media only screen and (max-width: 600px) {
+  
 }

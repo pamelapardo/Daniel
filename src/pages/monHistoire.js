@@ -100,7 +100,7 @@ function MonHistoire() {
             </div>
             <div className='col-6'>
               <div className=''>
-                <img className='page' src={Livre} alt='page'/>
+                <img className='livre' src={Livre} alt='page'/>
               </div>
             </div>
           </div>
