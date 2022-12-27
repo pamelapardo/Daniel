@@ -67,8 +67,8 @@ function MonHistoire() {
                 Malgré cela, il a maintenu une coherence mentale absolue, une honnêteté, une sincérité et une volonté farouche de sauver sa vie, aidé en cela par une mémoire et une vivacité d'esprit remarquables.<br/>
                 La séduction est ancrée dans son ADN d'amoureux de tous les instants, il multiplie les liaisons, les aventures et les mariages. C'est un vagabond de l'amour. <br/>
                 Si on le comprend, il est facile de vivre avec lui, il est volontiers singulier et jovial, constant et positif.<br/>
-                Il est résilient et altruiste, et s'intéresse à tout, y compris à lui-même de manière débordante, presque provocante.<br/>
-                Il peut être un peu agressif quand c'est nécessaire, un peu misogyne et transgressif, mais il reste un bon humaniste qui peut être généreux et empathique.<br/></p>
+                Il est résilient et altruiste, et s'intéresse à tout, y compris à lui-même de manière débordante, presque provocante,<br/>
+                Mais restant un bon humaniste qui se montre généreux et empathique.<br/></p>
             </div>
           </div>
         </div>
@@ -80,7 +80,7 @@ function MonHistoire() {
               <img src={Dd2} className='dd2' alt='daniel'/>
             </div>
             <div className='col-6 d-flex align-items-center'>
-              <p className='p-text text-white italic citation'>“Je suis un conquérant.”</p>
+              <p className='p-text text-white italic citation'>“Je suis un conquérant du beau.”</p>
             </div>
           </div>
         </div>
@@ -96,7 +96,7 @@ function MonHistoire() {
                 Il nous montre comment transcender ses blessures morales pour maîtriser sa vie et repousser l'adversité, afin de finalement trouver le chemin de la liberté intérieure.<br/>
                 Il sait ce que la liberté signifie ! Le récit captivant nous emmène dans un monde où personne d'autre ne va. <br/>
                 C'est une histoire sidérante où l'insolite et l'émotion sont au rendez-vous à travers ce livre profond qui nous interroge !<br/>
-                Découvrez son livre, la révélation, l'histoire fascinante d'un homme extraordinaire, Daniel Deschamps :<br/></p>
+                Découvrez son livre, la révélation sidérante et édifiante, l'histoire fascinante d'un homme extraordinaire, qui a su rester humble néanmoins, Daniel Deschamps :<br/></p>
             </div>
             <div className='col-6'>
               <div className=''>
