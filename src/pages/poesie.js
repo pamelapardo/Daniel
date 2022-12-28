@@ -69,7 +69,7 @@ export default function Galerie (props) {
                   <img className='poesie-libre' src={PoesieLibre} alt='daniel'/>
                 </div>
               </div>
-            <div className='col-6 text-align-end'>
+            <div className='col-6'>
               <h3 className='text-white'>Poésie libre III</h3>
               <p className='p-text text-white'>Si quelquefois de tes mains frêles et douces tu<br/>
               t'aventurais à caresser tendrement ma peau en<br/>
@@ -107,7 +107,7 @@ export default function Galerie (props) {
               <br/>
               Tu te réaliserais enfin, sans autre concours que<br/>
               toi, tu te révèlerais à toi, à moi, à la vie ! …<br/></p>
-              <div className='d-flex position-relative justify-content-end'>
+              <div className='brush-white-container'>
                 <img className='brush brush-white-size' src={BrushWhite} alt='brush'/>
                 <div className='date-container me-5'>
                   <p className='date-bleu'>1986</p>
@@ -167,7 +167,7 @@ export default function Galerie (props) {
                 <img className='news-heigh' src={Poesies} alt='daniel'/>
               </div>
             </div>
-            <div className='col-6 text-align-end'>
+            <div className='col-6'>
               <h3 className='text-white'>Celle qui passait</h3>
               <p className='p-text text-white'>Les cloches sonnaient huit heures, je marchais<br/>
               dans les rues, je marchais dans ma tête, une<br/>
@@ -188,7 +188,7 @@ export default function Galerie (props) {
               Je déambulais la paix dans la tête, la tête sous<br/>
               les étoiles d'automne (Peut-être un printemps de<br/>
               vie ! … )<br/></p>
-              <div className='d-flex position-relative justify-content-end'>
+              <div className='brush-white-container'>
                 <img className='brush' src={BrushWhite} alt='brush'/>
                 <div className='date-container'>
                   <p className='date-bleu'>Grenoble - 11/10/1988</p>
@@ -238,7 +238,7 @@ export default function Galerie (props) {
               <img className='dd4' src={Dd4} alt='daniel'/>
               </div>
             </div>
-            <div className='col-6 text-align-end'>
+            <div className='col-6'>
               <h3 className='text-white'>La Panne</h3>
               <p className='p-text text-white'> Carré bleu, rayé, devant où un oiseau blanc passe<br/>
                 Au fond, là-bas du côté de la Sarthe le cercle du temps<br/>
@@ -269,7 +269,7 @@ export default function Galerie (props) {
                 Demain le petit carré bleu rayé s'évanouira<br/>
                 Porteur illusionniste de mon écrin temps à combler<br/>
                 Quand une enveloppe enfin sur ma tête de Turc sera !</p>
-              <div className='d-flex position-relative justify-content-end'>
+              <div className='brush-white-container'>
                 <img className='brush brush-white-size' src={BrushWhite} alt='brush'/>
                 <div className='date-container me-5'>
                   <p className='date-bleu'>1969</p>

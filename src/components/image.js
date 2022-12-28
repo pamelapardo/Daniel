@@ -5,7 +5,7 @@ const ImageComponent = (props) => {
   let [showModal, setShowModal] = useState(false);
 
   return (
-    <div>
+    <div className="center-paintings">
       <img
         className='painting'
         src={props.image}

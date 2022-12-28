@@ -52,24 +52,28 @@ button{
 }
 .text-white{
   color: #FFFBF1 !important;
+  text-align: end;
 }
-.aos-effect{
-  transition-timing-function: ease;
-  transition-duration: .6s;
-  opacity: 0;
-  transition-property: opacity, transform;
-  overflow: hidden;
-  transform: translate3d(0,100px,0) scale(.6) ;
+.brush-white-container{
+  display: flex;
+  justify-content: end;
+  position: relative;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
+  .col-8 {
+    flex: 0 0 auto;
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 1300px) {
   h1{
     font-family: 'Cormorant SC', serif;
     font-weight: 500;
     color: #08203D;
-    font-size: 34pt !important;
+    font-size: 40pt !important;
     margin-bottom: -1.9rem !important;
     line-height: 0.8 !important;
-    margin-bottom: 10px !important;
+    margin-bottom: 2px !important;
   }
   h3{
     font-family: 'Cormorant SC', serif;
@@ -163,7 +167,7 @@ button{
 .painting-size{
   display: contents;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1300px) {
   .header-container{
     display: flex;
     justify-content: center ;
@@ -248,7 +252,48 @@ button{
   margin-left: auto;
   margin-right: auto;
 }
-@media only screen and (max-width: 600px) {
+.center-paintings{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+@media (min-width: 576px){
+  .container{
+    margin: 0px !important;
+  }
+}
+@media (min-width: 830px){
+  .container{
+    max-width: 100% !important;
+  }
+}
+
+
+@media only screen and (max-width: 1300px) {
+  .galerie-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .paintings_container{
+    line-height: 0;
+    -webkit-column-count: 3;
+    -moz-column-count:    3;
+    column-count:         3;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bleu-body{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media only screen and (max-width: 690px) {
   .galerie-body{
     display: flex;
     flex-direction: column;
@@ -283,7 +328,7 @@ button{
 .livre{
   height: 516px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1300px) {
   .p-text-histoire{
     color: #08203D;
     font-size: 13px;
@@ -359,4 +404,73 @@ button{
 .young{
   height: 450px;
   padding-left: 90px;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .text-white{
+    color: #FFFBF1 !important;
+    text-align: start;
+  }
+  .brush{
+    height: 84px;
+  }
+  .date-container{
+    display: flex;
+    position: absolute;
+    margin-left: 39px !important;
+    top: 33px !important;
+  }
+  .date{
+    font-family: "Montserrat", sans-serif;
+    color: #FFFBF1 ;
+    font-weight: 500 !important;
+    font-size: 11pt !important;
+  }
+  .date-bleu{
+    font-weight: 500 !important;
+    font-size: 11pt !important;
+  }
+  .brush-white-container{
+    display: flex;
+    justify-content: start;
+    position: relative;
+  }
+  .brush-white-size {
+    height: 76px !important;
+    margin-top: 7px !important;
+  }
+  .spider {
+    height: 360px ;
+  }
+  .poesie-libre {
+    height: 422px;
+    margin-bottom: 30px;
+  }
+  .papa-img {
+    height: 217px;
+  }
+  .news-heigh {
+    max-height: 343px;
+    margin-bottom: 30px;
+  }
+  .dd4 {
+    height: 291px;
+  }
+  .young {
+    height: 303px;
+    padding-left: 46px;
+  }
+  .pt-5{
+    padding-top: 1rem !important;
+  }
+  .pb-5{
+    padding-bottom: 1rem !important;
+  }
+  .mt-5{
+    margin-top: 1rem !important;
+  }
+  .mb-5{
+    margin-bottom: 1rem !important;
+  }
 }

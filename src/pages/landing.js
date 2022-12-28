@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/landing.scss'
 import Brush1 from '../images/brush1.png'
 import Circle1 from '../images/circle1.png'
+import Circle2 from '../images/circle-bottom.png'
 import Paintings from '../images/paintings.png'
 import Marker from '../images/marker.png'
 import Dd from '../images/DD.png'
@@ -59,6 +60,21 @@ export default function Landing(props) {
                 <p className='subtitle'>Peintre, poete, écrivain, comédien...</p>
               </div>
             </div>
+          </div>
+
+          <div className='menu-phone-container'>
+            <div>
+              <Link to='/galerie'><h6 className='menu-landing'>Galerie</h6></Link>
+            </div>
+            <div>
+              <Link to='/monHistoire'><h6 className='menu-landing'>Son histoire</h6></Link>
+            </div>
+            <div>
+              <Link to='/poesie'> <h6 className='menu-landing'>Poesie</h6> </Link>
+            </div>
+          </div>
+          <div className='circle-container2'>
+            <img className='circle2' src={Circle2} alt='circle'/>
           </div>
         </div>
       </div>
