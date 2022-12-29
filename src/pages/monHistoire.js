@@ -1,20 +1,13 @@
-import React,{ useEffect } from 'react';
+import React from 'react';
 import Header from '../components/header';
 import Brush3 from '../images/brush3.png'
 import Dd1 from '../images/daniel1.jpg';
 import Dd2 from '../images/daniel2.png';
 import Dd3 from '../images/daniel3.jpg';
 import Livre from '../images/livre.png';
-import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 function MonHistoire() {
- useEffect(() => {
-    Aos.init({ 
-      duration: 600,
-      easing: 'ease',
-      once: false });
- });
   return (
     <div className=' scroll'>
       <Header/>
@@ -46,7 +39,7 @@ function MonHistoire() {
           </div>
         </div>
       </div>
-      <div className='bleu-body pt-5'>
+      <div className='bleu-body'>
         <div className='container'>
           <div className='row'>
             <div className='col-6 d-flex justify-content-end'>
@@ -58,7 +51,7 @@ function MonHistoire() {
           </div>
         </div>
       </div>
-      <div className='galerie-body pb-5'>
+      <div className='galerie-body'>
         <div className='container mt-5'>
           <div className='row justify-content-center'>
             <div className='col-12'>
@@ -73,7 +66,7 @@ function MonHistoire() {
           </div>
         </div>
       </div>
-      <div className='bleu-body pt-5 pb-5'>
+      <div className='bleu-body'>
         <div className='container'>
           <div className='row'>
             <div className='col-6 d-flex justify-content-end'>
@@ -85,7 +78,7 @@ function MonHistoire() {
           </div>
         </div>
       </div>
-      <div className='galerie-body pb-5'>
+      <div className='galerie-body'>
         <div className='container pt-5'>
           <div className='row'>
             <div className='col-6'>
@@ -106,7 +99,7 @@ function MonHistoire() {
           </div>
         </div>
       </div>
-      <div className='bleu-body pt-5 pb-5'>
+      <div className='bleu-body'>
         <div className='container'>
           <div className='row'>
             <div className='col-6 d-flex justify-content-end'>

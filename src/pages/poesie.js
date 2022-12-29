@@ -61,8 +61,8 @@ export default function Galerie (props) {
           </div>
         </div>
       </div>
-      <div className='bleu-body pb-5'>
-        <div className='container mt-5 pt-5'>
+      <div className='bleu-body'>
+        <div className='container'>
           <div className='row pt-5 pb-5'>
             <div className='col-6'>
                 <div className='img-sticky'>
@@ -117,9 +117,9 @@ export default function Galerie (props) {
           </div>
         </div>
       </div>
-      <div className='galerie-body pb-5'>
-        <div className='container mt-5 pt-5'>
-          <div className='row'>
+      <div className='galerie-body'>
+        <div className='container'>
+          <div className='row pt-5 pb-5'>
             <div className='col-6'>
               <h3>Papa</h3>
               <p className='p-text'>P comme pauvre<br/>
@@ -159,9 +159,9 @@ export default function Galerie (props) {
           </div>
         </div>
       </div>
-      <div className='bleu-body pb-5'>
-        <div className='container mt-5 pt-5'>
-          <div className='row pt-5 pb-5'>
+      <div className='bleu-body'>
+        <div className='container'>
+          <div className='row'>
             <div className='col-6 d-flex align-items-center'>
               <div>
                 <img className='news-heigh' src={Poesies} alt='daniel'/>
@@ -198,8 +198,8 @@ export default function Galerie (props) {
           </div>
         </div>
       </div>
-      <div className='galerie-body pb-5'>
-        <div className='container mt-5 pt-5'>
+      <div className='galerie-body'>
+        <div className='container pt-5'>
           <div className='row'>
             <div className='col-6'>
               <h3>Grattage</h3>
@@ -230,8 +230,8 @@ export default function Galerie (props) {
           </div>
         </div>
       </div>
-      <div className='bleu-body pb-5'>
-        <div className='container mt-5 pt-5'>
+      <div className='bleu-body'>
+        <div className='container'>
           <div className='row pt-5 pb-5'>
             <div className='col-6 position-relative'>
               <div className='img-sticky'>
@@ -279,8 +279,8 @@ export default function Galerie (props) {
           </div>
         </div>
       </div>
-      <div className='galerie-body pb-5'>
-        <div className='container mt-5 pt-5'>
+      <div className='galerie-body'>
+        <div className='container pt-5'>
           <div className='row'>
             <div className='col-6'>
               <h3>Existence</h3>

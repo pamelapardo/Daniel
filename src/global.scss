@@ -49,6 +49,8 @@ button{
   background-color: #08203D;
   padding-left: 10rem;
   padding-right: 10rem;
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
 }
 .text-white{
   color: #FFFBF1 !important;
@@ -227,6 +229,8 @@ button{
   align-items: center;
   margin-left: 10rem;
   margin-right: 10rem;
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
 }
 .brush2{
   margin-top: 10px;
@@ -319,7 +323,7 @@ button{
 
 // SON HISTOIRE ****************************************
 .dd-image{
-  height: 75%;
+  height: 100%;
 }
 .p-text-histoire{
   color: #08203D;
@@ -352,26 +356,22 @@ button{
 .italic{
   font-style: italic;
 }
-
 .dd2{
   height: 390px;
 }
 .dd4{
   height: 414px;
 }
-
 .citation{
   border-left: 2px solid #FFFBF1;
   padding-left: 15px;
 }
-
 .date-container{
   display: flex;
   position: absolute;
   margin-left: 63px;
   top: 54px;
 }
-
 .date{
   font-family: "Montserrat", sans-serif;
   color: #FFFBF1;
@@ -406,6 +406,12 @@ button{
   padding-left: 90px;
 }
 
+@media only screen and (max-width: 1300px) {
+  .text-white{
+    color: #FFFBF1 !important;
+    text-align: start;
+  }
+}
 
 @media only screen and (max-width: 800px) {
   .text-white{
@@ -453,6 +459,9 @@ button{
   .news-heigh {
     max-height: 343px;
     margin-bottom: 30px;
+  }
+  .dd-image{
+    height: 196px;
   }
   .dd4 {
     height: 291px;
