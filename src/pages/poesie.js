@@ -5,22 +5,23 @@ import Brush4 from '../images/brush4.png';
 import BrushWhite from '../images/brush-white.png'
 import News from '../images/news2.png';
 import Dd4 from '../images/dd4.png';
-import Spider from '../images/spider.png';
+import Spider from '../images/spider1.png';
 import Poesies from '../images/poeme-1.png'
 import PapaPoesie from '../images/papa-poesie.png'
 import Dd6 from '../images/dd6.png'
 import PoesieLibre from '../images/poesie-libre.png'
+import Footer from '../components/footer'
 
 export default function Galerie (props) {
   return (
     <div className=' scroll'>
       <Header/>
-      <div className='galerie-body'>
+      <div data-aos="fade-down" className='galerie-body'>
         <h1>Poesie</h1>
         <div>
           <img className='brush2 mb-3' src={BrushPoesie} alt='brush'/>
         </div>
-        <div className='container mt-4 pb-5'>
+        <div data-aos="fade-down" className='container mt-4 pb-5'>
           <div className='row'>
             <div className='col-8'>
               <h3>Hantise</h3>
@@ -61,8 +62,8 @@ export default function Galerie (props) {
           </div>
         </div>
       </div>
-      <div className='bleu-body'>
-        <div className='container'>
+      <div className='bleu-body fade-down1'>
+        <div data-aos="fade-down" data-aos-anchor="fade-down1" className='container'>
           <div className='row pt-5 pb-5'>
             <div className='col-6'>
                 <div className='img-sticky'>
@@ -70,7 +71,7 @@ export default function Galerie (props) {
                 </div>
               </div>
             <div className='col-6'>
-              <h3 className='text-white'>Poésie libre III</h3>
+              <h3 className='text-white'>Poésie libre IIIs</h3>
               <p className='p-text text-white'>Si quelquefois de tes mains frêles et douces tu<br/>
               t'aventurais à caresser tendrement ma peau en<br/>
               manque du frôlement de tes longs doigts fins,<br/>
@@ -320,6 +321,7 @@ export default function Galerie (props) {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from '../components/header';
 import ImageComponent from '../components/image';
 
@@ -41,6 +41,7 @@ import P35 from '../paintings/p35.jpg'
 import P36 from '../paintings/p36.jpg'
 import P37 from '../paintings/p37.jpg'
 import '../styles/modal.scss'
+import Footer from '../components/footer';
 
 const paintingArray = [
   {image:P1, imageTitle:'Reveuse à la plage',imageText:'Acrylique et brosse, 2000.'},
@@ -83,15 +84,29 @@ const paintingArray = [
 ]
 
 export default function Galerie(props) {
+
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
+
   return (
     <div className=' scroll'>
+      {loading ? (
+      <div className="loader-container">
+        <div className="spinner"></div>
+      </div>
+      ):(<div>
       <Header />
-      <div className='galerie-body'>
+      <div className='galerie-container'>
         <h1>Galerie</h1>
         <div>
           <img className='brush2' src={Brush2} alt='brush' />
         </div>
-        <div className='paintings_container'>
+        <div data-aos="fade-down" className='paintings_container'>
 
           {
             paintingArray.map((imageSrc, index) => {
@@ -105,6 +120,8 @@ export default function Galerie(props) {
           }
         </div>
       </div>
+      <Footer/>
+      </div>)}
     </div>
   );
 };

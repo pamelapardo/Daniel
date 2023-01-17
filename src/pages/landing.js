@@ -14,7 +14,7 @@ import Galerie_paint from '../images/galerie-paint.png'
 export default function Landing(props) {
   return (
     <div className='h-100'>
-      <div class="container h-100">
+      <div data-aos="fade-down" class="container h-100">
         <div class="row h-100">
 
         <div className='circle-container'>

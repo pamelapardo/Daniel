@@ -5,13 +5,14 @@ import Dd1 from '../images/daniel1.jpg';
 import Dd2 from '../images/daniel2.png';
 import Dd3 from '../images/daniel3.jpg';
 import Livre from '../images/livre.png';
+import Footer from '../components/footer'
 import 'aos/dist/aos.css';
 
 function MonHistoire() {
   return (
     <div className=' scroll'>
       <Header/>
-      <div className='galerie-body pb-5'>
+      <div data-aos="fade-down" className='galerie-body pb-5'>
         <h1>Son histoire</h1>
         <div>
           <img className='brush2 mb-3' src={Brush3} alt='brush'/>
@@ -20,20 +21,12 @@ function MonHistoire() {
           <div className='row justify-content-center'>
             <div className='col-12'>
               <h3> Daniel, une personne attachante… </h3>
-              <p className='p-text-histoire text-justify'>Daniel Deschamps est une personne extraordinaire.<br/>
-                Avide d'évolution, cet homme est unique, et je vais, humblement mais avec admiration, vous conter les prémices de sa ou de ses diverses vies, ici et là…<br/>
-                Daniel est une personne qui a réalisé de nombreux projets et qui possède de nombreuses qualités et compétences. On pourrait dire qu'il est une "boule à mille facettes".<br/>
-                C'est-à-dire, difficile à classer dans une seule catégorie ou de le décrire de manière simple, au point qu'il ferait pâlir le camouflage du caméléon.<br/>
-                Daniel ne vieillit jamais, c'est dans sa nature de phénix-survivant! Artiste dans l'âme et doté d'une vive intelligence intuitive, il a tout pour s'adapter, créer, transformer et surtout évoluer.<br/>
-                Daniel a vécu des épreuves infernales et saura subir une impensable injustice (voir le livre "La Strada d'un fils de forain").<br/>
-                Gravement malade à plusieurs reprises, il reste et restera invaincu. Invincible, autorégénérateur !<br/>
-                <br/>
-                Tout cela, il le doit à sa personnalité, à sa façon de penser et à son mental fort qui lui ont permis de surmonter les obstacles grâce à sa détermination, sa ténacité et son inventivité.<br/>
-                L'artiste né en 1948 à Alençon, issu d'une famille de forains sédentaires, a su dès son enfance festive faire de son environnement un avantage.<br/>
-                Enfant de ce riche atmosphère, à 12 ans seulement, il comprenait déjà le fonctionnement de l'argent et des gens.<br/>
-                Il sait inventer les slogans grâce à l'importance de l'élocution et, plus généralement, il applique les règles fondamentales qui régissent notre société.<br/>
-                C'est ainsi qu'il s'arma et réussira, le plus souvent possible, tout ce qu'il peut entreprendre.<br/>
-                Sa vie est un film unique à découvrir. C'est un être attachant, il est et c'est une personnalité extrême !<br/>
+              <p className='p-text-histoire text-justify'>Daniel Deschamps est une personne extraordinaire !...<br/>
+                Avide d'évolution,l'homme accompli baroudeur puis très bien intégré aujourd'hui est unique de par son histoire et sa résilience face aux événements les plus déroutants. servis par son destin insolent à répétition qu'ils soient administratifs ou médicaux ou conjugaux ! Déterminé et résilient il traverse les pires épreuves en gardant son sourire séduisant une de ses qualités et son attachement aux valeurs morales intégrant humanisme et humilité préservée.Cette dernière malgré sa montée des marches de l'échelon social que seules des atteintes corporelles ou bombes sentimentales imprévisibles à répétition traversent telles des épreuves ravageuses qui le font grandir !...L'ancien matelot de 1966 à 1969 reste droit dans ses bottes et garde une posture altière qui lui va bien à ce grand bonhomme diplomate et taquin aussi venu de Normandie en Mai 1948 à Alençon 61000.<br/>
+                L'ancien mataf-comédien et animateur au Club affiche une intelligence vive détentrice d'une mémoire surprenante source intarissable de son flow d'écrivain éloquent.Fantaisiste dans l'âme, doté d'une nature artistique soutenue (peinture - écriture - poésie - théâtre et animation) Daniel réalise en bon rationnel patenté de nombreux projets immobiliers et ne s'en targue pas !..Brillant autodidacte venu d'un environnement plus que populaire puisque fils de forain sédentaire hors normes il collectionne les bons diplômes et les bonnes références voir newdim.site !...On pourrait dire qu'il est une "boule à mille facettes" sur laquelle la lumière de la chance s'attarde aussi et c'est tant mieux ! L'être jovial et sympathique séducteur est difficile à classer dans une seule catégorie ou de le décrire de manière simple,au point qu'il ferait pâlir le camouflage du caméléon ne vieillit jamais,c'est dans sa nature de phénix-survivant !..Artiste dans l'âme et doté de son esprit intuitif il a tout pour s'adapter,créer, transformer et surtout évoluer sans cesse tout en restant jeune !
+                (voir son autobiographie unique en son genre "Mémoires sidérantes d'un Alençonnais" dans laquelle il se livre à nu et développe son passé le plus insolite qui soit !.. <br/>
+                Gravement malade à plusieurs reprises, il reste invaincu de tout fléau en un invincible auto-régénérateur ! S'il est devenu "Survivor" il le doit à sa personnalité,à sa façon de penser et à son mental fort qui lui ont permis de surmonter les obstacles grâce à sa détermination,sa ténacité et son inventivité issue dès son enfance festive qui le pousse à faire de son environnement un avantage.Sa devise d'initié est qu'il faut savoir tirer le meilleur du pire pour se montrer en Arlequin rebondissant plutôt  qu'en Pierrot attristé.De cette riche atmosphère,à 12 ans seulement,il comprendra vite déjà le fonctionnement de l'argent et des gens.A l'instar de son père ,charismatique lui aussi,Il sait inventer les slogans grâce à sa maîtrise de l'outil du langage et de son élocution et,plus généralement,il applique les règles fondamentales qui régissent notre société tout naturellement. <br/>
+                Sa vie est un film unique à découvrir.C'est un être attachant de naturel, il est et c'est une personnalité insolite et captivante = Votez pour lui ! <br/>
                 </p>
             </div>
           </div>
@@ -52,7 +45,7 @@ function MonHistoire() {
         </div>
       </div>
       <div className='galerie-body'>
-        <div className='container mt-5'>
+        <div className='container'>
           <div className='row justify-content-center'>
             <div className='col-12'>
               <h3>Un personnage haut en couleurs</h3>
@@ -79,7 +72,7 @@ function MonHistoire() {
         </div>
       </div>
       <div className='galerie-body'>
-        <div className='container pt-5'>
+        <div className='container'>
           <div className='row'>
             <div className='col-6'>
               <h3>Son histoire. Une révélation, prochainement disponible :</h3>
@@ -111,6 +104,7 @@ function MonHistoire() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

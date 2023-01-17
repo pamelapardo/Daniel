@@ -58,7 +58,7 @@ button{
 }
 .brush-white-container{
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   position: relative;
 }
 @media only screen and (max-width: 800px) {
@@ -222,7 +222,39 @@ button{
 
 
 // GALERIE ***********************************
-
+.loader-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background: #08203d9a;
+  z-index: 1;
+}
+.spinner {
+  width: 64px;
+  height: 64px;
+  border: 8px solid;
+  border-color: #FFFBF1 transparent #FFFBF1 transparent;
+  border-radius: 50%;
+  animation: spin-anim 1.2s linear infinite;
+}
+@keyframes spin-anim {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+.galerie-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
 .galerie-body{
   display: flex;
   flex-direction: column;
@@ -276,6 +308,13 @@ button{
 
 
 @media only screen and (max-width: 1300px) {
+  .galerie-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
   .galerie-body{
     display: flex;
     flex-direction: column;
@@ -439,7 +478,7 @@ button{
   }
   .brush-white-container{
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     position: relative;
   }
   .brush-white-size {
@@ -482,4 +521,43 @@ button{
   .mb-5{
     margin-bottom: 1rem !important;
   }
+}
+
+
+// FOOTER ********
+.footer-container{
+  height: 180px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d2cdc2;
+}
+.footer-title1{
+  font-family: "Cormorant SC", serif;
+  line-height: 0.8 !important;
+  margin-bottom: 0px !important;
+  color: #08203D;
+  font-size: 2.4rem !important;
+  border-left: 1px solid #08203D;
+  padding-left: 0.5rem !important;
+}
+.footer-contact{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.footer-contact-text{
+  color: #08203D !important;
+  margin-bottom: 0px;
+  font-size: 1rem !important;
+}
+.contact-pixolab{
+  font-size: 0.9rem !important;
+  color: #988f7d;
+  margin-bottom: 0px !important;
+  margin-top: 23px;
+  font-family:  "Cinzel", serif;
 }
