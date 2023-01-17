@@ -176,7 +176,7 @@ export default function Galerie (props) {
               font vibrer très fort : tignasse de mouton) est<br/>
               passée devant moi sans me voir, happée par sa vie.<br/>
               <br/>
-              Moi, j'allais je nesais où (tiens moi !)<br/>
+              Moi, j'allais je ne sais où (tiens moi !)<br/>
               Je déambulais, les pensées à des kilomètres de là.<br/>
               J'étais dans les Alpes et je pensais aux Pyrénées ;<br/>
               Je constatais que j'aimais à penser à quelqu'un,<br/>
