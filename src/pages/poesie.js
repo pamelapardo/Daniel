@@ -176,14 +176,14 @@ export default function Galerie (props) {
               font vibrer très fort : tignasse de mouton) est<br/>
               passée devant moi sans me voir, happée par sa vie.<br/>
               <br/>
-              Moi, j'allais je ne sais où (tiens moi !)<br/>
+              Moi, j'allais je ne sais où (tiens moi ?)<br/>
               Je déambulais, les pensées à des kilomètres de là.<br/>
               J'étais dans les Alpes et je pensais aux Pyrénées ;<br/>
               Je constatais que j'aimais à penser à quelqu'un,<br/>
               que j'appréciais de me projeter dans le futur , que <br/>
               que je ne dédaignais pas faire des projets.<br/>
               Penser à une création, à un engagement, à un chemi-<br/>
-              nement des évènements : c'est étre créateur et<br/>
+              nement des évènements : c'est être créateur et<br/>
               passer à côté de la névrose.<br/>
               <br/>
               Je déambulais la paix dans la tête, la tête sous<br/>
