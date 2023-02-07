@@ -371,6 +371,22 @@ button{
 .livre{
   height: 516px;
 }
+.right-then-center{
+  display: flex;
+  justify-content: flex-end;
+}
+.left-then-center{
+  display: flex;
+  justify-content: flex-start;
+}
+.right-then-center-text{
+  display: flex;
+  align-items: center;
+}
+.citation{
+  border-left: 2px solid #FFFBF1;
+  padding-left: 15px;
+}
 @media only screen and (max-width: 1300px) {
   .p-text-histoire{
     color: #08203D;
@@ -380,7 +396,26 @@ button{
   .livre{
     height: 306px;
   }
+  .left-then-center{
+    display: flex;
+    justify-content: center;
+  }
+  .right-then-center{
+    display: flex;
+    justify-content: center;
+  }
+  .citation{
+    border-left: 2px solid #FFFBF1;
+    padding-left: 5px !important;
+    margin-top: 8px;
+  }
+  .right-then-center-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
+
 
 
 
@@ -400,10 +435,6 @@ button{
 }
 .dd4{
   height: 414px;
-}
-.citation{
-  border-left: 2px solid #FFFBF1;
-  padding-left: 15px;
 }
 .date-container{
   display: flex;
@@ -526,8 +557,7 @@ button{
 
 // FOOTER ********
 .footer-container{
-  height: 180px;
-  margin-top: 50px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -559,5 +589,27 @@ button{
   color: #988f7d;
   margin-bottom: 0px !important;
   margin-top: 23px;
-  font-family:  "Cinzel", serif;
+}
+@media only screen and (max-width: 1300px) {
+  .footer-title1{
+    font-family: "Cormorant SC", serif;
+    line-height: 0.8 !important;
+    margin-bottom: 0px !important;
+    color: #08203D;
+    font-size: 1.5rem !important;
+    border-left: 1px solid #08203D;
+    padding-left: 0.5rem !important;
+  }
+  .footer-contact-text{
+    color: #08203D !important;
+    margin-bottom: 0px;
+    font-size: 0.8rem !important;
+  }
+  .contact-pixolab{
+    font-size: 0.9rem !important;
+    color: #988f7d;
+    margin-bottom: 0px !important;
+    margin-top: 23px;
+    font-size: 0.8rem !important;
+  }
 }
