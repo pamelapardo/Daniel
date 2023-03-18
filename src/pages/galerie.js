@@ -40,6 +40,7 @@ import P34 from '../paintings/p34.jpg'
 import P35 from '../paintings/p35.jpg'
 import P36 from '../paintings/p36.jpg'
 import P37 from '../paintings/p37.jpg'
+import P38 from '../paintings/p38.png'
 import '../styles/modal.scss'
 import Footer from '../components/footer';
 
@@ -81,6 +82,7 @@ const paintingArray = [
   {image:P35, imageTitle:'Barques à Zarzis tunisie',imageText:'Aquarelle, 2000.'},
   {image:P36, imageTitle:'Mosquée de Sidi bou Said',imageText:'Aquarelle, 2000.'},
   {image:P37, imageTitle:'Barques à Zarzis tunisie',imageText:'Aquarelle, 2000.'},
+  {image:P38, imageTitle:'Sabots de Venus',imageText:'Acrylique et brosse, 2005.'},
 ]
 
 export default function Galerie(props) {

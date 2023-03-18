@@ -61,7 +61,7 @@ function MonHistoire() {
               <h3>Un personnage haut en couleurs</h3>
               <p className='p-text-histoire text-justify'>Une enfance marquée par la vie dans une cité d'urgence qui a dégénéré en une adolescence agitée et instable, menant à des événements traumatiques qui ont causé de la souffrance et des vexations.<br/>
                 Malgré cela, il a maintenu une coherence mentale absolue, une honnêteté, une sincérité et une volonté farouche de sauver sa vie, aidé en cela par une mémoire et une vivacité d'esprit remarquables.<br/>
-                La séduction est ancrée dans son ADN d'amoureux de tous les instants, il multiplie les liaisons, les aventures et les mariages. C'est un vagabond de l'amour. <br/>
+                La séduction est ancrée dans son ADN d'amoureux de tous les instants, il multiplie les liaisons et les aventures. C'est un vagabond de l'amour. <br/>
                 Si on le comprend, il est facile de vivre avec lui, il est volontiers singulier et jovial, constant et positif.<br/>
                 Il est résilient et altruiste, et s'intéresse à tout, y compris à lui-même de manière débordante, presque provocante,<br/>
                 Mais restant un bon humaniste qui se montre généreux et empathique.<br/></p>
