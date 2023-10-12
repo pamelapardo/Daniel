@@ -4,7 +4,7 @@ const PopupModal = (props) => {
   return (
     <Modal className='modal-1' show={props.showModal} onHide={props.handleClose}>
       <div>
-        <div className='modal-content-container'>
+        <div className='modal-content-container_expo'>
           <Modal.Header className='modal-header' closeButton>
             <div  className='modal-title align-items-center'>
               <Modal.Title>{props.imageTitle}</Modal.Title>
