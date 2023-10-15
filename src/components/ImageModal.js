@@ -3,7 +3,7 @@ import Modal from 'react-bootstrap/Modal';
 const ImageModal = (props) => {
   return (
     <Modal className='modal-1' show={props.showModal} onHide={props.handleClose}>
-      <div className='d-flex justify-content-between'>
+      <div className='big-screen-format'>
         <div>
           <img className='img-modal' src={props.image} alt='painting'/>
         </div>
