@@ -29,6 +29,9 @@ function MonHistoire() {
                 Un écart générateur d'un terrible incident dévastateur car illégal et injuste (incarcération arbitraire sans délit constitué !) qu'il nous  révèle dans son autobiographie en fait marqueur point final irrémédiable de son innocente adolescence qu'on expédiera d'un mode obligé dans la marine nationale a 18 ans (sous-marins)!<br/>
                 Dumas et Hugo,Zola et Maupassant auraient pu écrire moult des pans colorés âpreté de l'existence de l'homme accompli, atypique et hyper résilient dans le fil de sa vie ombre et lumière!<br/>
                 L'ex-baroudeur dans son oeuvre nous déroule outre son vécu sa fibre artististique étendue (Peintre, auteur, poete,comédien,animateur "Club Med"et éducateur a la Dass) ! On ne peut que le suivre dans le récit fabuleux de son histoire à travers : "Mémoires sidérantes d'un Alençonnais" ecrit d'une plume agile trempée dans l'humour et l'authenticité.<br/>
+                Surtout, Suivez le ! <br/><br/>
+                Il vous étonnera et vous portera dans des situations que peu d'êtres ont pu vivre et il vous attirera dans le monde de l'audace et des prouesses ou dans les dégringolades assumées avec un mental unique et enviable.<br/>
+                La motivation de son aveu est une mise en garde pour la jeunesse qu'il a fréquenté en éducateur référencé et dont il connaît les travers ne fusse que celui qui l'a fait aller au trou pour mieux en ressortir dans la lumière soulignant cette mise en garde à ceux qui ne doivent pas s'égarer s'ils sont fragiles !<br/>
               </p>
             </div>
           </div>
