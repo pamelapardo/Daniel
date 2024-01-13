@@ -43,7 +43,6 @@ import P37 from '../paintings/p37.jpg'
 import P38 from '../paintings/p38.png'
 import '../styles/modal.scss'
 import Footer from '../components/footer';
-import Popup from './popup'
 
 const paintingArray = [
   {image:P1, imageTitle:'Reveuse à la plage',imageText:'Acrylique et brosse, 2000.'},
@@ -103,7 +102,6 @@ export default function Galerie(props) {
         <div className="spinner"></div>
       </div>
       ):(<div>
-      <Popup/>
       <Header />
       <div className='galerie-container'>
         <h1>Galerie</h1>

@@ -7,10 +7,12 @@ import Dd3 from '../images/daniel3.jpg';
 import Livre from '../images/livre.jpeg';
 import Footer from '../components/footer'
 import 'aos/dist/aos.css';
+import Popup from './popup';
 
 function MonHistoire() {
   return (
     <div className=' scroll'>
+      <Popup/>
       <Header />
       <div data-aos="fade-down" className='galerie-body pb-5'>
         <h1>Son histoire</h1>

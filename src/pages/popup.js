@@ -8,7 +8,7 @@ export default function Popup(props) {
     <div>
       <PopupModal
         image={props.image}
-        imageTitle="Exposition "
+        imageTitle="Interview"
         showModal={showModal}
         handleClose={() => { setShowModal(false) }} />
     </div>
